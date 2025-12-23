@@ -1,0 +1,1 @@
+> Pressão manométrica é a diferença entre a pressão real do sistema em relação a Pressão atmosférica.
