@@ -263,6 +263,11 @@
 | **Correção**                  | You **shouldn't** say that.   | Você **não deveria** dizer isso.     |
 
 ---
+- Shall 
+  - **Função:** Indicar futuro, sugestão, oferta, obrigação ou determinação
+  - **Tradução:** vou, vamos, deverei, deveremos (depende do contexto)
+
+
 
 ### 📝 **Conjugação:**
 ## **3. SUBSTANTIVOS**
@@ -521,7 +526,7 @@
 
 ## **7. PRONOMES**
 
-- **Them** = eles, os, lhes
+- **Them** = eles, os, as, lhes
     
 - **Their** = suas, seus, deles, delas
     
@@ -535,7 +540,7 @@
     
 - **It’s** = isso é
     
-- **This** = esse, esta, isto
+- **This** = esse, essa, esta, este, isto
     
 - **Of this** = disso, deste
     
@@ -556,8 +561,10 @@
 - **His** = seu, sua, dele
     
 - **Everything** = tudo
-    
-- **That** = que, isso, aquele
+
+- **That** = que, isso, aquele, aquela
+
+- Those = aqueles, aquelas
     
 
 ---
@@ -617,6 +624,7 @@
 - Try on = experimentar (roupa)
 - Try out = testar, experimentar
 - Try your best = dar o seu melhor
+- turn the sound up = aumentar o volume
 # **TÓPICO EXTRA: SINÔNIMOS E TEMPOS VERBAIS**
 
 ## **1. SINÔNIMOS DE VERBOS COMUNS**
