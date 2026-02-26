@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "1684d6249aa58309",
+    "type": "split",
+    "children": [
+      {
+        "id": "d643547a4603941a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0e79f0808310691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AirSpace/linguas/Palavras/Inglês to português.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inglês to português"
+            }
+          },
+          {
+            "id": "69098b901dc8c06a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AirSpace/linguas/Palavras/Inglês to português.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inglês to português"
+            }
+          },
+          {
+            "id": "c6d74e5ec08881ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AirSpace/linguas/Regras/Percepções/13. Have and got.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13. Have and got"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "313d240702841ce5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fdac7d6567e6ca6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c3cead9cfb7f25c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "9adda101c8f444c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Substantivos",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "c89e3cd0704efcef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 371.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4d4d2f78f2b0c8a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "584c824ba780629c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b25e2a6b69f2eae5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 3. Convenções"
+            }
+          },
+          {
+            "id": "5375481fe8b6301a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para 3. Convenções"
+            }
+          },
+          {
+            "id": "1d0e5fc7147709ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "704ba914274f308a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "d5cd0273d83edc33",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 3. Convenções"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "69098b901dc8c06a",
+  "lastOpenFiles": [
+    "AirSpace/linguas/Regras/Percepções/7. at vs on vs in.md",
+    "AirSpace/linguas/Palavras/Inglês to português.md",
+    "AirSpace/Automação/Hidraulica/Componentes/1. Válvulas de Cartucho..md",
+    "AirSpace/linguas/Regras/verbo to be.md",
+    "AirSpace/linguas/Regras/Percepções/6. on vs in.md",
+    "AirSpace/linguas/Regras/adverbio.md",
+    "AirSpace/linguas/Regras/Percepções/13. Have and got.md",
+    "AirSpace/linguas/Regras/Percepções/12. onde usar to.md",
+    "AirSpace/linguas/Regras/Percepções/4. for vs to.md",
+    "AirSpace/linguas/Analise de frases/Sentences to think.md",
+    "AirSpace/linguas/Regras/Percepções/11. Plural forms.md",
+    "AirSpace/linguas/Regras/Percepções/10. Into.md",
+    "AirSpace/linguas/Regras/do, did and does will.md",
+    "AirSpace/linguas/Regras/Percepções/9. Orações.md",
+    "AirSpace/linguas/Regras/Percepções/8. Make Questions.md",
+    "AirSpace/linguas/Regras/Percepções/5. at vs to.md",
+    "AirSpace/linguas/Regras/phrasal verbs.md",
+    "AirSpace/linguas/Analise de frases",
+    "AirSpace/linguas/Regras/Percepções/2. Pronomes no inicio.md",
+    "AirSpace/linguas/Regras/Percepções/1. Palavra interrogativa.md",
+    "AirSpace/linguas/Regras/Percepções/3. to vs about.md",
+    "AirSpace/linguas/Sem título.md",
+    "AirSpace/linguas/Palavras/inglês UK vs inglês EUA.md",
+    "AirSpace/linguas/Regras/Preposições.md",
+    "AirSpace/linguas/Regras/Pronomes/1. Pronomes Pessoal.md",
+    "Advérbio interrogativo.md",
+    "AirSpace/linguas/Regras/Percepções",
+    "AirSpace/linguas/Regras/substantivos.md",
+    "AirSpace/linguas/Regras/Pronomes",
+    "AirSpace/linguas/Palavras",
+    "AirSpace/linguas/Regras",
+    "AirSpace/linguas",
+    "AirSpace/Hardware/Pinagens",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus",
+    "AirSpace/Hardware/Modbus RTU",
+    "AirSpace/Hardware/Conceitos e Nomenclaturas",
+    "AirSpace/imagens/Pasted image 20251205134414.png",
+    "AirSpace/imagens/seroial.png",
+    "AirSpace/imagens/Pasted image 20251210131328.png",
+    "AirSpace/imagens/Pasted image 20251205135014.png",
+    "AirSpace/imagens/Pasted image 20251205134025.png",
+    "AirSpace/imagens/Pasted image 20251205134113.png",
+    "AirSpace/imagens/Pasted image 20251205100121.png",
+    "AirSpace/imagens/Pasted image 20251205094817.png",
+    "AirSpace/imagens/Pasted image 20251205094755.png",
+    "AirSpace/imagens/Pasted image 20251205091317.png"
+  ]
+}
