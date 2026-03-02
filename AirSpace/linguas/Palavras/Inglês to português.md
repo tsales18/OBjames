@@ -247,6 +247,29 @@
     **Passado**: took = peguei, tomei, levei
     **Futuro**: will take = pegará, tomará, levará
 
+- Present = preveni
+    **Presente (3ª pessoa)**: prevents = previne, impede, evita
+    **Presente (demais pessoas)**: prevent = prevenir, impedir, evitar
+    **Passado**: prevented = preveni, impedi, evitei
+    **Futuro**: will prevent = prevenirá, impedirá, evitará
+    
+- keep =manter, guardar, continuar
+	**Presente**: keep = manter, guardar, continuar
+	**Passado**: **kept** = mantive, guardei, continuei
+	**Futuro**: will keep = manterá, guardará, continuará
+	
+- Perform: 
+	**Presente**: perform = executar, realizar, desempenhar, apresentar-se
+	**Passado**: **performed** = executei, realizei, desempenhei, apresentei-me
+	**Futuro**: will perform = executará, realizará, desempenhará, apresentar-se-á
+	
+- Allow:
+    - **Presente**: allow = permitir, autorizar, deixar
+	- **Passado**: allowed = permiti, autorizei, deixei
+	- **Futuro**: will allow = permitirá, autorizará, deixará
+
+
+
 
 ---
 
@@ -263,11 +286,12 @@
 | **Correção**                  | You **shouldn't** say that.   | Você **não deveria** dizer isso.     |
 
 ---
-- Shall 
-  - **Função:** Indicar futuro, sugestão, oferta, obrigação ou determinação
-  - **Tradução:** vou, vamos, deverei, deveremos (depende do contexto)
-
-
+- Shall:
+    - **Função:** Indicar futuro, sugestão, oferta, obrigação ou determinação
+    - **Tradução:** vou, vamos, deverei, deveremos (depende do contexto)
+- May:
+    - **Função:** Indicar permissão, possibilidade, desejo ou concessão
+    - **Tradução:** poder (no sentido de permissão ou possibilidade)
 
 ### 📝 **Conjugação:**
 ## **3. SUBSTANTIVOS**
@@ -481,7 +505,6 @@
     
 - **Just** = exatamente, apenas
     
-
 ### **Intensidade**
 
 - **As** = tão
@@ -521,6 +544,11 @@
 - Always = sempre
 
 - Sometimes = as vezes 
+
+### Transição
+- Nevertheless
+	- **Função:** Introduz uma ideia que contrasta ou se opõe ao que foi dito anteriormente
+	- **Tradução:** no entanto, todavia, contudo, mesmo assim, apesar disso
 
 ---
 
@@ -608,8 +636,15 @@
     
 - **Past** = passado
 
-- Bright - brilhante, claro, vivo, inteligente, alegre
+- Bright = brilhante, claro, vivo, inteligente, alegre
 
+- Pending:
+    - **Função:** Descreve algo que ainda não foi decidido, resolvido ou concluído
+    - **Tradução:** pendente, por resolver, em espera
+
+- Current:
+	- **Função:** Descreve algo que pertence ao presente, que está acontecendo agora
+	- **Tradução:** atual, corrente, vigente
 ---
 
 ## **10. LOCUÇÃO INTERROGATIVA DE QUANTIDADE**
@@ -625,6 +660,7 @@
 - Try out = testar, experimentar
 - Try your best = dar o seu melhor
 - turn the sound up = aumentar o volume
+
 # **TÓPICO EXTRA: SINÔNIMOS E TEMPOS VERBAIS**
 
 ## **1. SINÔNIMOS DE VERBOS COMUNS**
