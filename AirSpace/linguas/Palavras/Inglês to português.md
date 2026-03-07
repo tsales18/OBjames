@@ -264,13 +264,34 @@
 	**Futuro**: will perform = executará, realizará, desempenhará, apresentar-se-á
 	
 - Allow:
+    -  **Presente (3ª pessoa)**: allows = permite, autoriza, deixa
     - **Presente**: allow = permitir, autorizar, deixar
 	- **Passado**: allowed = permiti, autorizei, deixei
 	- **Futuro**: will allow = permitirá, autorizará, deixará
 
+- Define:
+	- **Presente (3ª pessoa)**: defines = define, determina, especifica
+	- **Presente (demais pessoas)**: define = definir, determinar, especificar
+	- **Passado**: defined = defini, determinei, especifiquei
+	- **Futuro**: will define = definirá, determinará, especificará
 
+- Require: 
+    - Presente (3ª pessoa): requires = exigi, requer, precisa, de, necessita
+	- **Presente**: require = exigir, requerer, precisar de, necessitar
+	- **Passado**: **required** = exigi, requeri, precisei de
+	- **Futuro**: will require = exigirá, requererá, precisará de
 
+- Determine:
+	- **Presente (I/you/we/they):** determine = determinar, decidir, estabelecer
+	- **Presente (3ª pessoa he/she/it):** **determines** = determina, decide, estabelece
+	- **Passado:** determined = determinei, decidi, estabeleci
+	- **Futuro:** will determine = determinará, decidirá, estabelecerá
 
+- Pack:
+	- **Presente (I/you/we/they):** pack = empacotar, embalar, fazer as malas
+	- **Presente (3ª pessoa he/she/it):** packs = empacota, embala, faz as malas
+	- **Passado:** **packed** = empacotei, embalei, fiz as malas
+	- **Futuro:** will pack = empacotará, embalará, fará as malas
 
 ---
 
@@ -290,9 +311,14 @@
 - Shall:
     - **Função:** Indicar futuro, sugestão, oferta, obrigação ou determinação
     - **Tradução:** vou, vamos, deverei, deveremos (depende do contexto)
+    
 - May:
     - **Função:** Indicar permissão, possibilidade, desejo ou concessão
     - **Tradução:** poder (no sentido de permissão ou possibilidade)
+
+- Must:
+	- **Função:** Indicar obrigação, necessidade, certeza ou recomendação forte
+	- **Tradução:** dever, ter que, precisar, certamente
 
 ### 📝 **Conjugação:**
 ## **3. SUBSTANTIVOS**
@@ -428,6 +454,15 @@
 - Being = ser, existência
 
 - Wedding = casamento (cerimônia, evento)
+
+- Contents:
+	- **Função:** Nomeia o que está dentro de algo, os itens que compõem um todo
+	- **Tradução:** conteúdo, conteúdos, teor, sumário
+
+- Fields:
+	- **Função:** Nomeia áreas, espaços ou categorias
+	- **Tradução:** campos, áreas, setores, domínios
+
 ---
 
 ## **4. PREPOSIÇÕES**
@@ -490,7 +525,10 @@
 - **But** = mas, porém
     
 - **Than** = de, do, do que
-    
+
+- Although:
+	- **Função:** Introduz uma oração que expressa uma ideia de contraste ou concessão em relação à oração principal
+	- **Tradução:** embora, apesar de que, ainda que, mesmo que
 
 ---
 
@@ -525,7 +563,10 @@
 ### **Inclusão**
 
 - **Also** = também
-    
+
+- Therefore:
+	- **Função:** Introduz uma conclusão lógica ou resultado baseado no que foi dito anteriormente
+	- **Tradução:** portanto, por isso, por conseguinte, logo, assim sendo
 
 ### **Exclusão**
 
@@ -646,7 +687,23 @@
 - Current:
 	- **Função:** Descreve algo que pertence ao presente, que está acontecendo agora
 	- **Tradução:** atual, corrente, vigente
+
+- Enough:
+	- **Função:** Acompanha um substantivo, indicando quantidade suficiente
+	- **Posição:** Antes do substantivo
+	- **Tradução:** suficiente, bastante
+	
+- Shorter:
+	- **Função:** Comparar duas coisas, indicando que uma tem menos comprimento, altura, duração ou tamanho que a outra
+	- **Forma:** Comparativo de "short" (curto, baixo, breve)
+	- **Tradução:** mais curto, mais baixo, mais breve
 ---
+
+## 9.1 **ADJETIVO INDEFINIDO 
+
+- Another:
+	- **Função:** Acompanha um substantivo singular, indicando "um adicional", "um diferente" ou "um outro"
+	- **Tradução:** outro, outra, mais um, mais uma
 
 ## **10. LOCUÇÃO INTERROGATIVA DE QUANTIDADE**
 
