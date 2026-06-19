@@ -1,84 +1,41 @@
 {
   "main": {
-    "id": "1684d6249aa58309",
+    "id": "4148e34c1355b4de",
     "type": "split",
     "children": [
       {
-        "id": "d643547a4603941a",
+        "id": "776954deb42f01d8",
         "type": "tabs",
         "children": [
           {
-            "id": "f0e79f0808310691",
+            "id": "17f71870567e72da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/9. Os dois modos de transmissão serial.md",
+                "file": "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Os dois modos de transmissão serial"
-            }
-          },
-          {
-            "id": "69098b901dc8c06a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7. Diagrama de estado mestre"
-            }
-          },
-          {
-            "id": "f74966fb1362870e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/11. Modbus Sobre linha serial, Descrição de quadro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11. Modbus Sobre linha serial, Descrição de quadro"
-            }
-          },
-          {
-            "id": "c6d74e5ec08881ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/12. PDU E ADU.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "12. PDU E ADU"
+              "title": "16. Categorias de código de função"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "313d240702841ce5",
+    "id": "e9f35ff9d2974407",
     "type": "split",
     "children": [
       {
-        "id": "1fdac7d6567e6ca6",
+        "id": "f0efc6b5cd462ed4",
         "type": "tabs",
         "children": [
           {
-            "id": "0c3cead9cfb7f25c",
+            "id": "1ebc3895a3fa7500",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -91,12 +48,12 @@
             }
           },
           {
-            "id": "9adda101c8f444c6",
+            "id": "6ac277a077e1b770",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Substantivos",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +65,7 @@
             }
           },
           {
-            "id": "c89e3cd0704efcef",
+            "id": "9332cf7c2f96eebc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -121,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "4d4d2f78f2b0c8a0",
+    "id": "9330d163bb5d7891",
     "type": "split",
     "children": [
       {
-        "id": "584c824ba780629c",
+        "id": "e545cffac31105a0",
         "type": "tabs",
         "children": [
           {
-            "id": "b25e2a6b69f2eae5",
+            "id": "8dc411784f61a731",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "file": "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 3. Convenções"
+              "title": "Links inversos para 16. Categorias de código de função"
             }
           },
           {
-            "id": "5375481fe8b6301a",
+            "id": "002232c7a82f0f36",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "file": "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 3. Convenções"
+              "title": "Links de saída para 16. Categorias de código de função"
             }
           },
           {
-            "id": "1d0e5fc7147709ae",
+            "id": "7f4e4f2890d8f360",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -176,11 +134,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "704ba914274f308a",
+            "id": "ccdb8c23a0648507",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -194,18 +152,18 @@
             }
           },
           {
-            "id": "d5cd0273d83edc33",
+            "id": "47b52438502868e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "file": "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 3. Convenções"
+              "title": "Sumário de 16. Categorias de código de função"
             }
           }
         ]
@@ -226,53 +184,34 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "c6d74e5ec08881ec",
+  "active": "17f71870567e72da",
   "lastOpenFiles": [
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/15. Modelo de dados MODBUS.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
+    "Pasted image 20260619180315.png",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/14. Codificação de Dados.md",
+    "AirSpace/imagens/Pasted image 20260619175840.png",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/13. Cliente x Servidor.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/12. PDU E ADU.md",
+    "AirSpace/imagens/Pasted image 20260619171550.png",
+    "Pasted image 20260619171520.png",
+    "AirSpace/imagens/Pasted image 20260619171437.png",
+    "AirSpace/imagens/Pasted image 20260619170932.png",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/15. Definição de MODBUS de dois fios.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Interfaces Elétricas.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/14. Camada física.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/13. Verificação de erros.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/3. Convenções.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/11. Enquadramento RTU de mensagens MODBUS.md",
     "AirSpace/Hardware/Modbus RTU/Teoria Modbus/11. Modbus Sobre linha serial, Descrição de quadro.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/12. PDU E ADU.md",
-    "AirSpace/Hardware/4. DF1/1. Teoria DF1/9. Símbolos de transmissão.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
-    "Pasted image 20260619035915.png",
-    "Pasted image 20260619035810.png",
-    "Pasted image 20260619035741.png",
-    "Pasted image 20260619035535.png",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/10. Como os Caracteres são transmitidos serialmente.md",
-    "Pasted image 20260619035313.png",
-    "Pasted image 20260619035213.png",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/10. Modo de transmissão RTU.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/10. Como os Caracteres são transmitidos serialmente.md",
     "AirSpace/Hardware/Modbus RTU/Teoria Modbus/9. Os dois modos de transmissão serial.md",
-    "Pasted image 20260619034850.png",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/8. Diagrama de estado escravo.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/6. Descrição do quadro MODBUS.md",
-    "AirSpace/imagens/Pasted image 20260302192412.png",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/5. Regras de endereçamento MODBUS.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/4. Principio do protocolo MODBUS Mestre-Escravo.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/1. Visão geral do protocolo.md",
-    "AirSpace/Hardware/Pinagens/SLC 500 (RS232).md",
-    "AirSpace/linguas/Palavras/Inglês to português.md",
-    "AirSpace/imagens/Pasted image 20260302201420.png",
-    "AirSpace/linguas/Regras/5. use of -'s.md",
-    "AirSpace/linguas/Regras/4. Be good at + something doing something.md",
-    "AirSpace/linguas/Regras/3. Read about the '-ing' form.md",
-    "AirSpace/linguas/Regras/2. do, did and does will.md",
-    "AirSpace/linguas/Regras/1. verbo to be.md",
-    "AirSpace/linguas/Percepções/1. Palavra interrogativa.md",
-    "AirSpace/linguas/Percepções/9. Orações.md",
-    "AirSpace/linguas/Percepções/8. Make Questions.md",
-    "AirSpace/linguas/Percepções/7. at vs on vs in.md",
-    "AirSpace/linguas/Percepções/6. on vs in.md",
-    "AirSpace/linguas/Percepções/5. at vs to.md",
-    "AirSpace/linguas/Percepções/4. for vs to.md",
-    "AirSpace/linguas/Percepções",
-    "AirSpace/linguas/Classes/Pronomes",
-    "AirSpace/linguas/Classes",
-    "AirSpace/imagens/Pasted image 20260302110631.png",
-    "AirSpace/linguas/Analise de frases",
-    "AirSpace/linguas/Regras/Percepções",
-    "AirSpace/linguas/Regras/Pronomes",
-    "AirSpace/linguas/Palavras",
-    "AirSpace/linguas/Regras",
-    "AirSpace/linguas",
-    "AirSpace/Hardware/Pinagens"
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/8. Diagrama de estado escravo.md",
+    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
+    "AirSpace/imagens/Pasted image 20260619035915.png",
+    "AirSpace/imagens/Pasted image 20260619035810.png",
+    "AirSpace/imagens/Pasted image 20260619035741.png",
+    "AirSpace/imagens/Pasted image 20260619035535.png"
   ]
 }
