@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/linguas/Palavras/Inglês to português.md",
+                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inglês to português"
+              "title": "7. Diagrama de estado mestre"
+            }
+          },
+          {
+            "id": "f74966fb1362870e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/11. Modbus Sobre linha serial, Descrição de quadro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. Modbus Sobre linha serial, Descrição de quadro"
             }
           },
           {
@@ -41,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
+                "file": "AirSpace/Hardware/Modbus RTU/Teoria Modbus/12. PDU E ADU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Diagrama de estado mestre"
+              "title": "12. PDU E ADU"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 226.5
   },
   "right": {
     "id": "4d4d2f78f2b0c8a0",
@@ -212,14 +226,31 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "0c3cead9cfb7f25c",
+  "active": "c6d74e5ec08881ec",
   "lastOpenFiles": [
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/9. Os dois modos de transmissão serial.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/8. Diagrama de estado escravo.md",
-    "AirSpace/imagens/Pasted image 20260302201420.png",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/11. Modbus Sobre linha serial, Descrição de quadro.md",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/12. PDU E ADU.md",
+    "AirSpace/Hardware/4. DF1/1. Teoria DF1/9. Símbolos de transmissão.md",
     "AirSpace/Hardware/Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
-    "AirSpace/linguas/Palavras/Inglês to português.md",
+    "Pasted image 20260619035915.png",
+    "Pasted image 20260619035810.png",
+    "Pasted image 20260619035741.png",
+    "Pasted image 20260619035535.png",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/10. Como os Caracteres são transmitidos serialmente.md",
+    "Pasted image 20260619035313.png",
+    "Pasted image 20260619035213.png",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/9. Os dois modos de transmissão serial.md",
+    "Pasted image 20260619034850.png",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/8. Diagrama de estado escravo.md",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/6. Descrição do quadro MODBUS.md",
     "AirSpace/imagens/Pasted image 20260302192412.png",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/5. Regras de endereçamento MODBUS.md",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/4. Principio do protocolo MODBUS Mestre-Escravo.md",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/1. Visão geral do protocolo.md",
+    "AirSpace/Hardware/Pinagens/SLC 500 (RS232).md",
+    "AirSpace/linguas/Palavras/Inglês to português.md",
+    "AirSpace/imagens/Pasted image 20260302201420.png",
     "AirSpace/linguas/Regras/5. use of -'s.md",
     "AirSpace/linguas/Regras/4. Be good at + something doing something.md",
     "AirSpace/linguas/Regras/3. Read about the '-ing' form.md",
@@ -232,33 +263,16 @@
     "AirSpace/linguas/Percepções/6. on vs in.md",
     "AirSpace/linguas/Percepções/5. at vs to.md",
     "AirSpace/linguas/Percepções/4. for vs to.md",
-    "AirSpace/linguas/Percepções/3. to vs about.md",
-    "AirSpace/linguas/Percepções/2. Pronomes no inicio.md",
-    "AirSpace/linguas/Percepções/13. Have and got.md",
-    "AirSpace/linguas/Percepções/12. onde usar to.md",
-    "AirSpace/linguas/Percepções/11. Plural forms.md",
-    "AirSpace/linguas/Percepções/10. Into.md",
     "AirSpace/linguas/Percepções",
-    "AirSpace/linguas/Classes/Pronomes/4. Pronome desmonstrativo.md",
-    "AirSpace/linguas/Classes/Pronomes/7. Pronome interrogativo.md",
-    "AirSpace/linguas/Classes/Pronomes/6. Pronome relativo.md",
-    "AirSpace/linguas/Classes/Pronomes/5. Pronome indefinido.md",
     "AirSpace/linguas/Classes/Pronomes",
     "AirSpace/linguas/Classes",
     "AirSpace/imagens/Pasted image 20260302110631.png",
-    "AirSpace/imagens/Pasted image 20260302110454.png",
-    "AirSpace/imagens/Pasted image 20260302110152.png",
-    "AirSpace/imagens/Pasted image 20260302105929.png",
     "AirSpace/linguas/Analise de frases",
     "AirSpace/linguas/Regras/Percepções",
     "AirSpace/linguas/Regras/Pronomes",
     "AirSpace/linguas/Palavras",
     "AirSpace/linguas/Regras",
     "AirSpace/linguas",
-    "AirSpace/Hardware/Pinagens",
-    "AirSpace/imagens/Pasted image 20251205134414.png",
-    "AirSpace/imagens/seroial.png",
-    "AirSpace/imagens/Pasted image 20251210131328.png",
-    "AirSpace/imagens/Pasted image 20251205135014.png"
+    "AirSpace/Hardware/Pinagens"
   ]
 }
