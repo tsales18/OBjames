@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "file": "Hardware/5. Modbus RTU/Teoria Modbus/17. Códigos de função públicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Convenções"
+              "title": "17. Códigos de função públicos"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ccf0b3d8473149ef",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+                "file": "Hardware/5. Modbus RTU/Teoria Modbus/17. Códigos de função públicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 3. Convenções"
+              "title": "Links inversos para 17. Códigos de função públicos"
             }
           },
           {
@@ -156,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,52 +173,52 @@
   },
   "active": "a26ce6de60689559",
   "lastOpenFiles": [
-    "Hardware/Modbus RTU/Teoria Modbus/1. Visão geral do protocolo.md",
-    "Hardware/Modbus RTU/Teoria Modbus/3. Convenções.md",
+    "Pasted image 20260621020137.png",
+    "Pasted image 20260621015818.png",
+    "Pasted image 20260621015414.png",
+    "Pasted image 20260621015210.png",
+    "Hardware/5. Modbus RTU/Teoria Modbus/12. PDU E ADU.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/11. Enquadramento RTU de mensagens MODBUS.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/10. Como os Caracteres são transmitidos serialmente.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/10. Modo de transmissão RTU.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/8. Diagrama de estado escravo.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/6. Descrição do quadro MODBUS.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/15. Modelo de dados MODBUS.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/15. Definição de MODBUS de dois fios.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/13. Cliente x Servidor.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/17. Códigos de função públicos.md",
+    "Pasted image 20260621002615.png",
+    "Hardware/5. Modbus RTU/Teoria Modbus/1. Visão geral do protocolo.md",
+    "Sem título.md",
+    "imagens/Pasted image 20260621001741.png",
+    "Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/13. Verificação de erros.md",
+    "Hardware/5. Modbus RTU/Teoria Modbus/16. Interfaces Elétricas.md",
+    "linguas/Regras/5. use of -'s.md",
+    "linguas/Regras/4. Be good at + something doing something.md",
+    "linguas/Regras/3. Read about the '-ing' form.md",
+    "linguas/Regras/2. do, did and does will.md",
+    "linguas/Regras/1. verbo to be.md",
+    "linguas/Regras",
+    "linguas/Percepções/9. Orações.md",
+    "linguas/Percepções/8. Make Questions.md",
+    "linguas/Percepções/7. at vs on vs in.md",
+    "linguas/Percepções/6. on vs in.md",
+    "linguas/Percepções",
+    "linguas/Palavras",
+    "linguas/Classes/Pronomes",
+    "linguas/Classes",
+    "linguas/Analise de frases",
+    "Hardware/Modbus RTU/Teoria Modbus",
+    "Hardware/Modbus RTU",
     "Hardware/Modbus RTU/Teoria Modbus/Sem título",
     "Imagem do WhatsApp de 2025-12-19 à(s) 19.39.21_389db5ce.jpg",
-    "Hardware/Modbus RTU/Teoria Modbus/2. Camadas OSI.md",
-    "Hardware/4. DF1/1. Teoria DF1/1. Camadas de rede.md",
-    "Hardware/Modbus RTU/Teoria Modbus",
-    "Hardware/Modbus RTU/Sem título.md",
-    "Automação/Hidraulica/Componentes/Fluxo em Paralelo.md",
-    "Automação/Hidraulica/Componentes/Fluxo em Série.md",
-    "Automação/Hidraulica/Componentes/4. Válvulas de redução 2-way..md",
-    "Automação/Hidraulica/Componentes/5. Válvulas de redução 3-way..md",
-    "Automação/Hidraulica/Componentes/3. Válvulas Compensadoras N-A..md",
-    "Automação/Hidraulica/Componentes/2. Válvulas Compensadora N-F..md",
-    "Automação/Hidraulica/Componentes/1. Válvulas de Cartucho..md",
     "Sem título 1.base",
-    "Sem título.base",
-    "Software/C/42. Uniões.md",
-    "Software/C/10. Modificadores de tipo básico de dados.md",
-    "Software/C/8. O Mapa de Memoria de C.md",
-    "Hardware/Conceitos e Nomenclaturas/1. Multidrop (one-to-many).md",
-    "Hardware/4. DF1/1. Teoria DF1/2. Camada Física.md",
-    "Automação/Hidraulica/Física aplicada a hidraulica/Queda de Pressão por meio de uma Restrição (Orifício).md",
-    "Automação/Hidraulica/Física aplicada a hidraulica/Pressão manométrica.md",
-    "Automação/Hidraulica/Física aplicada a hidraulica/Pressão.md",
-    "Automação/Hidraulica/Física aplicada a hidraulica/Força.md",
-    "Automação/Hidraulica/Física aplicada a hidraulica/Densidade.md",
-    "Hardware/Modbus RTU",
-    "Hardware/Sem título.md",
-    "Automação/Hidraulica/Conservação de Energia.md",
-    "Automação/Predict/1. Células de sensores em ST.md",
-    "Automação/Controle e movimento/limites fisícos",
-    "Automação/Controle e movimento/feedfoward",
-    "Automação/Controle e movimento/PID",
-    "Automação/Controle e movimento/resposta transitória",
-    "Automação/Controle e movimento/modelos dinâmicos",
-    "Automação/Controle e movimento.md",
     "imagens/Pasted image 20251210131328.png",
     "imagens/Pasted image 20251205135014.png",
     "imagens/Pasted image 20251205134414.png",
     "imagens/Pasted image 20251205134113.png",
-    "imagens/Pasted image 20251205134025.png",
-    "imagens/Pasted image 20251205100121.png",
-    "imagens/Pasted image 20251205094817.png",
-    "imagens/Pasted image 20251205094755.png",
-    "imagens/Pasted image 20251205091317.png",
     "Sem título.canvas"
   ]
 }
