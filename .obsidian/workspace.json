@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
+                "file": "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/2. DP (.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16. Categorias de código de função"
+              "title": "2. DP ("
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 448.5
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -186,32 +185,51 @@
   },
   "active": "17f71870567e72da",
   "lastOpenFiles": [
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/15. Modelo de dados MODBUS.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
+    "AirSpace/linguas/Regras/5. use of -'s.md",
+    "AirSpace/linguas/Regras/4. Be good at + something doing something.md",
+    "AirSpace/linguas/Regras/3. Read about the '-ing' form.md",
+    "AirSpace/linguas/Regras/2. do, did and does will.md",
+    "AirSpace/linguas/Regras/1. verbo to be.md",
+    "AirSpace/linguas/Regras",
+    "AirSpace/linguas/Percepções/8. Make Questions.md",
+    "AirSpace/linguas/Percepções/9. Orações.md",
+    "AirSpace/linguas/Percepções/6. on vs in.md",
+    "AirSpace/linguas/Percepções/7. at vs on vs in.md",
+    "AirSpace/linguas/Percepções/5. at vs to.md",
+    "AirSpace/linguas/Percepções/12. onde usar to.md",
+    "AirSpace/linguas/Percepções/3. to vs about.md",
+    "AirSpace/linguas/Percepções/4. for vs to.md",
+    "AirSpace/linguas/Percepções/2. Pronomes no inicio.md",
+    "AirSpace/linguas/Percepções/11. Plural forms.md",
+    "AirSpace/linguas/Percepções/13. Have and got.md",
+    "AirSpace/linguas/Percepções/10. Into.md",
+    "AirSpace/linguas/Percepções/1. Palavra interrogativa.md",
+    "AirSpace/linguas/Percepções",
+    "AirSpace/linguas/Palavras/inglês UK vs inglês EUA.md",
+    "AirSpace/linguas/Palavras/Inglês to português.md",
+    "AirSpace/linguas/Palavras",
+    "AirSpace/linguas/Classes/Pronomes/7. Pronome interrogativo.md",
+    "AirSpace/linguas/Classes/Pronomes/6. Pronome relativo.md",
+    "AirSpace/linguas/Classes/Pronomes/4. Pronome desmonstrativo.md",
+    "AirSpace/linguas/Classes/Pronomes/2. Pronome de tratamento.md",
+    "AirSpace/linguas/Classes/Pronomes/5. Pronome indefinido.md",
+    "AirSpace/linguas/Classes/Pronomes/3. Pronome possessivo.md",
+    "AirSpace/linguas/Classes/Pronomes",
+    "AirSpace/linguas/Classes",
+    "AirSpace/linguas/Analise de frases",
+    "AirSpace/imagens/Pasted image 20260621001741.png",
+    "AirSpace/Pasted image 20260621020137.png",
+    "AirSpace/Pasted image 20260621015818.png",
+    "AirSpace/Pasted image 20260621002615.png",
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus",
+    "AirSpace/Hardware/Modbus RTU",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A10VLO",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle",
     "Pasted image 20260619180315.png",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/14. Codificação de Dados.md",
     "AirSpace/imagens/Pasted image 20260619175840.png",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/13. Cliente x Servidor.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/12. PDU E ADU.md",
     "AirSpace/imagens/Pasted image 20260619171550.png",
     "Pasted image 20260619171520.png",
     "AirSpace/imagens/Pasted image 20260619171437.png",
-    "AirSpace/imagens/Pasted image 20260619170932.png",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/15. Definição de MODBUS de dois fios.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Interfaces Elétricas.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/14. Camada física.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/13. Verificação de erros.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/3. Convenções.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/11. Enquadramento RTU de mensagens MODBUS.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/11. Modbus Sobre linha serial, Descrição de quadro.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/10. Modo de transmissão RTU.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/10. Como os Caracteres são transmitidos serialmente.md",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus/9. Os dois modos de transmissão serial.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/8. Diagrama de estado escravo.md",
-    "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/7. Diagrama de estado mestre.md",
-    "AirSpace/imagens/Pasted image 20260619035915.png",
-    "AirSpace/imagens/Pasted image 20260619035810.png",
-    "AirSpace/imagens/Pasted image 20260619035741.png",
-    "AirSpace/imagens/Pasted image 20260619035535.png"
+    "AirSpace/imagens/Pasted image 20260619170932.png"
   ]
 }
