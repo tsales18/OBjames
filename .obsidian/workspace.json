@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/2. DP (.md",
+                "file": "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. DP ("
+              "title": "1. DR (Controle de Pressão)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.5
+    "width": 200
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -185,6 +185,17 @@
   },
   "active": "17f71870567e72da",
   "lastOpenFiles": [
+    "AirSpace/Pasted image 20260819023415.png",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/Sem título.md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR ( Controle de vazão).md",
+    "Pasted image 20260818133950.png",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/2. DP (.md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1.  DR (Controle de Pressão).md",
+    "AirSpace/Automação/Hidraulica/Componentes/6. Válvulas de Descarga.md",
+    "AirSpace/Pasted image 20260817025126.png",
+    "AirSpace/Pasted image 20260817020049.png",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/2. DP (Controle de pressão para operação paralela).md",
     "AirSpace/linguas/Regras/5. use of -'s.md",
     "AirSpace/linguas/Regras/4. Be good at + something doing something.md",
     "AirSpace/linguas/Regras/3. Read about the '-ing' form.md",
@@ -205,15 +216,7 @@
     "AirSpace/linguas/Percepções/10. Into.md",
     "AirSpace/linguas/Percepções/1. Palavra interrogativa.md",
     "AirSpace/linguas/Percepções",
-    "AirSpace/linguas/Palavras/inglês UK vs inglês EUA.md",
-    "AirSpace/linguas/Palavras/Inglês to português.md",
     "AirSpace/linguas/Palavras",
-    "AirSpace/linguas/Classes/Pronomes/7. Pronome interrogativo.md",
-    "AirSpace/linguas/Classes/Pronomes/6. Pronome relativo.md",
-    "AirSpace/linguas/Classes/Pronomes/4. Pronome desmonstrativo.md",
-    "AirSpace/linguas/Classes/Pronomes/2. Pronome de tratamento.md",
-    "AirSpace/linguas/Classes/Pronomes/5. Pronome indefinido.md",
-    "AirSpace/linguas/Classes/Pronomes/3. Pronome possessivo.md",
     "AirSpace/linguas/Classes/Pronomes",
     "AirSpace/linguas/Classes",
     "AirSpace/linguas/Analise de frases",
@@ -227,9 +230,6 @@
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle",
     "Pasted image 20260619180315.png",
     "AirSpace/imagens/Pasted image 20260619175840.png",
-    "AirSpace/imagens/Pasted image 20260619171550.png",
-    "Pasted image 20260619171520.png",
-    "AirSpace/imagens/Pasted image 20260619171437.png",
-    "AirSpace/imagens/Pasted image 20260619170932.png"
+    "AirSpace/imagens/Pasted image 20260619171550.png"
   ]
 }
