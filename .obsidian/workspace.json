@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
+                "file": "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR ( Controle de vazão).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. DR (Controle de Pressão)"
+              "title": "3. FR ( Controle de vazão)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 490.5,
+    "collapsed": true
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -185,12 +186,17 @@
   },
   "active": "17f71870567e72da",
   "lastOpenFiles": [
+    "AirSpace/Automação/Hidraulica/Cálculo de Velocidade e Vazão em Cilindros Hidráulicos.md",
+    "AirSpace/Automação/Hidraulica/Cálculo de Vazão em Bombas Hidráulicas.md",
+    "AirSpace/Automação/Hidraulica/Pilotagem hidráulica de êmbolos e carretéis.md",
+    "AirSpace/Automação/Hidraulica/Sem título 1.md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
+    "Pasted image 20260820150754.png",
     "AirSpace/Pasted image 20260819023415.png",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/Sem título.md",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR ( Controle de vazão).md",
     "Pasted image 20260818133950.png",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/2. DP (.md",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1.  DR (Controle de Pressão).md",
     "AirSpace/Automação/Hidraulica/Componentes/6. Válvulas de Descarga.md",
     "AirSpace/Pasted image 20260817025126.png",
@@ -212,9 +218,6 @@
     "AirSpace/linguas/Percepções/4. for vs to.md",
     "AirSpace/linguas/Percepções/2. Pronomes no inicio.md",
     "AirSpace/linguas/Percepções/11. Plural forms.md",
-    "AirSpace/linguas/Percepções/13. Have and got.md",
-    "AirSpace/linguas/Percepções/10. Into.md",
-    "AirSpace/linguas/Percepções/1. Palavra interrogativa.md",
     "AirSpace/linguas/Percepções",
     "AirSpace/linguas/Palavras",
     "AirSpace/linguas/Classes/Pronomes",
@@ -228,8 +231,6 @@
     "AirSpace/Hardware/Modbus RTU",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A10VLO",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle",
-    "Pasted image 20260619180315.png",
-    "AirSpace/imagens/Pasted image 20260619175840.png",
-    "AirSpace/imagens/Pasted image 20260619171550.png"
+    "Pasted image 20260619180315.png"
   ]
 }
