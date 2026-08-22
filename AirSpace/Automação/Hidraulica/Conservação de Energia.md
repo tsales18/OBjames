@@ -1,2 +1,0 @@
-A Física diz que a energia não pode ser criada nem destruída; pode apenas ser convertida em outras formas de energia.  Sabemos também da Física que, em um sistema mecânico, a energia mecânica em um determinado instante é dada pela soma da energia cinética com a energia potencial
-![[Pasted image 20251205094817.png]]
