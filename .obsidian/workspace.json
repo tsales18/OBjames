@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/7. Equação de energia.md",
+                "file": "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Queda de Pressão em Orifício.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Equação de energia"
+              "title": "Calculadora de Queda de Pressão em Orifício"
             }
           }
         ],
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 588.7000122070312
+    "width": 549.5
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -202,10 +202,16 @@
   },
   "active": "501a87dc2c620033",
   "lastOpenFiles": [
-    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/10. Preenchimento, movimento e pressurização do cilindro principal.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/calculadora-orificio.css",
+    "AirSpace/Automação/Hidraulica/Calculadora/Novo(a) Documento de Texto.txt",
+    "AirSpace/Automação/Hidraulica/Calculadora/Sem título.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Queda de Pressão em Orifício.md",
+    "AirSpace/Automação/Hidraulica/Calculadora",
+    "AirSpace/Automação/Hidraulica/Sem título.md",
     "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/9. Queda de Pressão por meio de uma Restrição (Orifício).md",
-    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/8. Viscosidade de um fluido.md",
     "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/7. Equação de energia.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/10. Preenchimento, movimento e pressurização do cilindro principal.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/8. Viscosidade de um fluido.md",
     "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/6. Conservação de Energia.md",
     "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/5. Pressão manométrica.md",
     "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/4. Densidade.md",
@@ -229,10 +235,6 @@
     "AirSpace/Automação/Hidraulica/Cálculo de Vazão em Bombas Hidráulicas.md",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR (Controle de vazão).md",
     "AirSpace/Automação/Hidraulica/Hidráulica.md",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas.md",
-    "AirSpace/Automação/Hidraulica/Componentes/Componentes.md",
-    "AirSpace/().md",
-    "AirSpace/S.O/Windows/IPC.md",
     "AirSpace/imagens/Pasted image 20260818133950.png",
     "AirSpace/imagens/Pasted image 20260820150754.png",
     "AirSpace/imagens/Pasted image 20260819023415.png",
@@ -245,8 +247,6 @@
     "AirSpace/linguas/Classes",
     "AirSpace/linguas/Analise de frases",
     "AirSpace/imagens/Pasted image 20260621001741.png",
-    "AirSpace/Hardware/Modbus RTU/Teoria Modbus",
-    "AirSpace/Hardware/Modbus RTU",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A10VLO"
+    "AirSpace/Hardware/Modbus RTU/Teoria Modbus"
   ]
 }

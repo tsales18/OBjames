@@ -1,0 +1,106 @@
+.calculadora-orificio {
+    max-width: 720px;
+    padding: 20px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 12px;
+    background: var(--background-secondary);
+}
+
+.campo-calculadora {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) 180px;
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0;
+}
+
+.linha-entrada {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.linha-entrada input {
+    width: 110px;
+    padding: 7px 9px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.linha-entrada span {
+    min-width: 55px;
+    color: var(--text-muted);
+}
+
+.resultados-calculadora {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    gap: 12px;
+}
+
+.cartao-resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 14px;
+    border-left: 4px solid var(--interactive-accent);
+    border-radius: 7px;
+    background: var(--background-primary);
+}
+
+.cartao-resultado span {
+    color: var(--text-muted);
+    font-size: 0.9em;
+}
+
+.cartao-resultado strong {
+    font-size: 1.25em;
+}
+
+.formulas-calculadora {
+    margin-top: 24px;
+}
+
+.formula {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    font-family: serif;
+    font-size: 1.15em;
+    background: var(--background-primary);
+    border-radius: 6px;
+}
+
+.informacao {
+    margin-top: 18px;
+    padding: 12px;
+    border-left: 4px solid #4da3ff;
+    border-radius: 6px;
+    background: rgba(77, 163, 255, 0.12);
+}
+
+.aviso-erro,
+.resultado-negativo {
+    color: var(--text-error);
+}
+
+.aviso-erro {
+    grid-column: 1 / -1;
+    padding: 12px;
+    border-left: 4px solid var(--text-error);
+    border-radius: 6px;
+    background: rgba(255, 70, 70, 0.1);
+}
+
+@media (max-width: 600px) {
+    .campo-calculadora {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .resultados-calculadora {
+        grid-template-columns: 1fr;
+    }
+}
