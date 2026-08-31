@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:AirSpace/Automação/Hidraulica  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 3,
+  "nodeSizeMultiplier": 2.40738045738046,
+  "lineSizeMultiplier": 3.69095634095634,
+  "collapse-forces": false,
+  "centerStrength": 0.292099792099792,
+  "repelStrength": 20,
+  "linkStrength": 0,
+  "linkDistance": 470,
+  "scale": 0.050434217528803935,
+  "close": false
+}

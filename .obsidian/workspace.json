@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "776954deb42f01d8",
+        "id": "a941dca8d1f627b6",
         "type": "tabs",
         "children": [
           {
-            "id": "17f71870567e72da",
+            "id": "0ee57ecaa1d37c65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR ( Controle de vazão)Sem título.md",
+                "file": "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR (Controle de vazão).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. FR ( Controle de vazão)Sem título"
+              "title": "3. FR (Controle de vazão)"
+            }
+          },
+          {
+            "id": "501a87dc2c620033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/7. Equação de energia.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7. Equação de energia"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -53,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#v1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 490.5
+    "width": 588.7000122070312
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -183,53 +200,53 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "1ebc3895a3fa7500",
+  "active": "501a87dc2c620033",
   "lastOpenFiles": [
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/10. Preenchimento, movimento e pressurização do cilindro principal.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/9. Queda de Pressão por meio de uma Restrição (Orifício).md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/8. Viscosidade de um fluido.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/7. Equação de energia.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/6. Conservação de Energia.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/5. Pressão manométrica.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/4. Densidade.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/3. Pressão.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/Física aplicada a hidráulica.md",
+    "AirSpace/Automação/Hidraulica/Física aplicada a hidraulica/2. Vazão.md",
+    "AirSpace/Automação/Hidraulica/Componentes/1. Válvulas de Cartucho..md",
+    "Pasted image 20260827234228.png",
+    "Pasted image 20260827230635.png",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/5. LR.md",
+    "Pasted image 20260825210720.png",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/4. DRF.md",
+    "AirSpace/Automação/Hidraulica/Pilotagem hidráulica de êmbolos e carretéis.md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A15VLO",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/Sem título.md",
+    "AirSpace/imagens/Pasted image 20260822180804.png",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/Dispositivos de Controle.md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/A4VSO.md",
     "AirSpace/Automação/Hidraulica/Cálculo de Velocidade e Vazão em Cilindros Hidráulicos.md",
     "AirSpace/Automação/Hidraulica/Cálculo de Vazão em Bombas Hidráulicas.md",
-    "AirSpace/Automação/Hidraulica/Pilotagem hidráulica de êmbolos e carretéis.md",
-    "AirSpace/Automação/Hidraulica/Sem título 1.md",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR (Controle de vazão).md",
+    "AirSpace/Automação/Hidraulica/Hidráulica.md",
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas.md",
+    "AirSpace/Automação/Hidraulica/Componentes/Componentes.md",
+    "AirSpace/().md",
+    "AirSpace/S.O/Windows/IPC.md",
+    "AirSpace/imagens/Pasted image 20260818133950.png",
     "AirSpace/imagens/Pasted image 20260820150754.png",
     "AirSpace/imagens/Pasted image 20260819023415.png",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/Sem título.md",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/3. FR ( Controle de vazão)Sem título.md",
-    "AirSpace/imagens/Pasted image 20260818133950.png",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/2. DP (.md",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1.  DR (Controle de Pressão).md",
-    "AirSpace/Automação/Hidraulica/Componentes/6. Válvulas de Descarga.md",
     "AirSpace/imagens/Pasted image 20260817025126.png",
     "AirSpace/Pasted image 20260817020049.png",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/2. DP (Controle de pressão para operação paralela).md",
-    "AirSpace/linguas/Regras/5. use of -'s.md",
-    "AirSpace/linguas/Regras/4. Be good at + something doing something.md",
-    "AirSpace/linguas/Regras/3. Read about the '-ing' form.md",
-    "AirSpace/linguas/Regras/2. do, did and does will.md",
-    "AirSpace/linguas/Regras/1. verbo to be.md",
     "AirSpace/linguas/Regras",
-    "AirSpace/linguas/Percepções/8. Make Questions.md",
-    "AirSpace/linguas/Percepções/9. Orações.md",
-    "AirSpace/linguas/Percepções/6. on vs in.md",
-    "AirSpace/linguas/Percepções/7. at vs on vs in.md",
-    "AirSpace/linguas/Percepções/5. at vs to.md",
-    "AirSpace/linguas/Percepções/12. onde usar to.md",
-    "AirSpace/linguas/Percepções/3. to vs about.md",
-    "AirSpace/linguas/Percepções/4. for vs to.md",
-    "AirSpace/linguas/Percepções/2. Pronomes no inicio.md",
-    "AirSpace/linguas/Percepções/11. Plural forms.md",
     "AirSpace/linguas/Percepções",
     "AirSpace/linguas/Palavras",
     "AirSpace/linguas/Classes/Pronomes",
     "AirSpace/linguas/Classes",
     "AirSpace/linguas/Analise de frases",
     "AirSpace/imagens/Pasted image 20260621001741.png",
-    "AirSpace/imagens/Pasted image 20260621020137.png",
-    "AirSpace/imagens/Pasted image 20260621015818.png",
-    "AirSpace/imagens/Pasted image 20260621002615.png",
     "AirSpace/Hardware/Modbus RTU/Teoria Modbus",
     "AirSpace/Hardware/Modbus RTU",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A10VLO",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle",
-    "AirSpace/linguas/Pasted image 20260619180315.png"
+    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A10VLO"
   ]
 }
