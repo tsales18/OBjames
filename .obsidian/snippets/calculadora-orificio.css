@@ -104,3 +104,101 @@
         grid-template-columns: 1fr;
     }
 }
+
+.linha-entrada select {
+    width: 120px;
+    padding: 7px 9px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.estado-valvula {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 16px;
+    border-radius: 7px;
+}
+
+.estado-valvula span {
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+
+.estado-valvula strong {
+    font-size: 1.15em;
+}
+
+.estado-aberta {
+    color: #1f8f4e;
+    border-left: 4px solid #2eae62;
+    background: rgba(46, 174, 98, 0.12);
+}
+
+.estado-fechada {
+    color: var(--text-error);
+    border-left: 4px solid var(--text-error);
+    background: rgba(255, 70, 70, 0.1);
+}
+
+.representacao-areas {
+    grid-column: 1 / -1;
+    margin-top: 22px;
+}
+
+.barra-areas {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 7px;
+    background: var(--background-primary);
+}
+
+.barra-aa,
+.barra-ab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    overflow: hidden;
+    font-weight: bold;
+    color: white;
+    transition: width 0.25s ease;
+}
+
+.barra-aa {
+    background: #2979d6;
+}
+
+.barra-ab {
+    background: #e28a24;
+}
+
+.legenda-areas {
+    display: grid;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.cor-aa,
+.cor-ab {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.cor-aa {
+    background: #2979d6;
+}
+
+.cor-ab {
+    background: #e28a24;
+}
