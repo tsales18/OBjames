@@ -1,4 +1,3 @@
-# Calculadora de Áreas — Válvula Cartucho
 
 ```dataviewjs
 // ============================================================

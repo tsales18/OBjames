@@ -1,24 +1,20 @@
 
+
 ```dataviewjs
 // ============================================================
-// CALCULADORA DE FORÇA HIDRÁULICA
+// CALCULADORA DE VELOCIDADE DO CILINDRO
 //
-// F = p × A
+// v [mm/s] = Q [L/min] × 10000 / (60 × A [cm²])
 //
-// Usando:
-// p em bar
-// A em cm²
-// F em newtons
-//
-// Fórmula simplificada:
-// F [N] = 10 × p [bar] × A [cm²]
+// Relação fundamental:
+// Q = A × v
 // ============================================================
 
 const container = dv.el("div", "");
 container.className = "calculadora-orificio";
 
 // ------------------------------------------------------------
-// Funções para construir a interface
+// Funções da interface
 // ------------------------------------------------------------
 
 function criarTitulo(texto, nivel = 2) {
@@ -57,11 +53,11 @@ function criarCampoNumero(
         input.max = maximo;
     }
 
-    const spanUnidade = document.createElement("span");
-    spanUnidade.textContent = unidade;
+    const unidadeTexto = document.createElement("span");
+    unidadeTexto.textContent = unidade;
 
     linha.appendChild(input);
-    linha.appendChild(spanUnidade);
+    linha.appendChild(unidadeTexto);
 
     grupo.appendChild(label);
     grupo.appendChild(linha);
@@ -70,7 +66,7 @@ function criarCampoNumero(
     return input;
 }
 
-function formatarNumero(valor, casas = 2) {
+function formatarNumero(valor, casas = 3) {
     return valor.toLocaleString("pt-BR", {
         minimumFractionDigits: casas,
         maximumFractionDigits: casas
@@ -81,25 +77,24 @@ function formatarNumero(valor, casas = 2) {
 // Título e entradas
 // ------------------------------------------------------------
 
-criarTitulo("Calculadora de Força Hidráulica");
-
+criarTitulo("Calculadora de Velocidade do Cilindro");
 criarTitulo("Dados", 3);
 
-const pressaoInput = criarCampoNumero(
-    "Pressão",
-    180,
+const vazaoInput = criarCampoNumero(
+    "Vazão",
+    220,
     0,
     null,
-    10,
-    "bar"
+    1,
+    "L/min"
 );
 
 const areaInput = criarCampoNumero(
     "Área efetiva do cilindro",
     6310.08,
-    0,
+    0.01,
     null,
-    10,
+    1,
     "cm²"
 );
 
@@ -118,46 +113,77 @@ container.appendChild(resultados);
 // ------------------------------------------------------------
 
 function calcular() {
-    const pressaoBar = Number(pressaoInput.value);
+    const vazaoLmin = Number(vazaoInput.value);
     const areaCm2 = Number(areaInput.value);
 
     // Validação
-    if (pressaoBar < 0 || areaCm2 < 0) {
+    if (vazaoLmin < 0 || areaCm2 <= 0) {
         resultados.innerHTML = `
             <div class="aviso-erro">
-                A pressão e a área não podem ser negativas.
+                A vazão não pode ser negativa e a área do cilindro
+                deve ser maior que zero.
             </div>
         `;
         return;
     }
 
-    // Força em newtons
-    const forcaN = 10 * pressaoBar * areaCm2;
+    // --------------------------------------------------------
+    // Velocidade do cilindro
+    // --------------------------------------------------------
 
-    // Conversões
-    const forcaKN = forcaN / 1000;
-    const forcaMN = forcaN / 1_000_000;
-    const forcaTf = forcaN / 9806.65;
+    const velocidadeMmS =
+        (vazaoLmin * 10000) /
+        (60 * areaCm2);
+
+    const velocidadeCmS = velocidadeMmS / 10;
+    const velocidadeMS = velocidadeMmS / 1000;
+    const velocidadeMmMin = velocidadeMmS * 60;
+    const velocidadeMMin = velocidadeMmMin / 1000;
+
+    // Tempo necessário para percorrer 1 metro
+    const tempoPorMetroS =
+        velocidadeMmS > 0
+            ? 1000 / velocidadeMmS
+            : 0;
 
     resultados.innerHTML = `
         <div class="cartao-resultado">
-            <span>Força em newtons</span>
-            <strong>${formatarNumero(forcaN, 0)} N</strong>
+            <span>Velocidade do cilindro</span>
+            <strong>
+                ${formatarNumero(velocidadeMmS)} mm/s
+            </strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Força em quilonewtons</span>
-            <strong>${formatarNumero(forcaKN, 2)} kN</strong>
+            <span>Velocidade do cilindro</span>
+            <strong>
+                ${formatarNumero(velocidadeCmS)} cm/s
+            </strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Força em meganewtons</span>
-            <strong>${formatarNumero(forcaMN, 3)} MN</strong>
+            <span>Velocidade em unidade SI</span>
+            <strong>
+                ${formatarNumero(velocidadeMS, 6)} m/s
+            </strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Força em toneladas-força</span>
-            <strong>${formatarNumero(forcaTf, 2)} tf</strong>
+            <span>Velocidade por minuto</span>
+            <strong>
+                ${formatarNumero(velocidadeMMin)} m/min
+            </strong>
+        </div>
+
+        <div class="cartao-resultado">
+            <span>Tempo para percorrer 1 metro</span>
+            <strong>
+                ${
+                    velocidadeMmS > 0
+                        ? `${formatarNumero(tempoPorMetroS, 2)} s`
+                        : "—"
+                }
+            </strong>
         </div>
     `;
 }
@@ -166,7 +192,7 @@ function calcular() {
 // Atualização automática
 // ------------------------------------------------------------
 
-pressaoInput.addEventListener("input", calcular);
+vazaoInput.addEventListener("input", calcular);
 areaInput.addEventListener("input", calcular);
 
 calcular();
@@ -179,22 +205,35 @@ const formulas = document.createElement("div");
 formulas.className = "formulas-calculadora";
 
 formulas.innerHTML = `
-    <h3>Fórmula utilizada</h3>
+    <h3>Fórmulas utilizadas</h3>
 
     <div class="formula">
-        F [N] =
-        10 · p [bar] · A [cm²]
+        v [mm/s] =
+        Q [L/min] · 10.000 /
+        (60 · A [cm²])
     </div>
 
     <div class="formula">
-        F [tf] =
-        F [N] / 9.806,65
+        v [mm/s] =
+        166,6667 · Q [L/min] /
+        A [cm²]
+    </div>
+
+    <div class="formula">
+        v [cm/s] =
+        v [mm/s] / 10
+    </div>
+
+    <div class="formula">
+        t [s] =
+        distância [mm] / v [mm/s]
     </div>
 
     <div class="informacao">
-        A força calculada é teórica. A força efetivamente disponível
-        pode ser menor por causa do atrito das vedações, contrapressão,
-        perdas hidráulicas e geometria do mecanismo acionado.
+        A velocidade calculada é teórica e considera que toda a vazão
+        informada entra no cilindro. A velocidade real pode ser menor
+        devido às fugas internas da bomba e do cilindro, à compressão
+        do óleo e às perdas de vazão no circuito.
     </div>
 `;
 

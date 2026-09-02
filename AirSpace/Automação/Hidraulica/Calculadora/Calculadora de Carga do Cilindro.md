@@ -1,5 +1,4 @@
 
-
 ```dataviewjs
 // ============================================================
 // CALCULADORA DE CARGA DO CILINDRO

@@ -1,4 +1,3 @@
-# Calculadora de Pressão Necessária para Abrir a Válvula
 
 ```dataviewjs
 // ============================================================
