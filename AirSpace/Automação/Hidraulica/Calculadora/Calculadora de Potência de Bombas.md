@@ -1,7 +1,7 @@
 
 ```dataviewjs
 // ==========================================================
-// POTÊNCIA DE BOMBA HIDRÁULICA
+// POTÊNCIA E TORQUE DE BOMBA HIDRÁULICA
 //
 // Potência hidráulica:
 // Ph [kW] = p [bar] × Q [L/min] / 600
@@ -11,6 +11,12 @@
 //
 // Potência elétrica requerida:
 // Pel = Peixo / ηmotor
+//
+// Torque hidráulico ideal:
+// Th [N·m] = 9550 × Ph [kW] / n [rpm]
+//
+// Torque requerido no eixo:
+// Teixo [N·m] = 9550 × Peixo [kW] / n [rpm]
 //
 // 1 kW = 1,35962 cv
 // 1 kW = 1,34102 hp
@@ -86,7 +92,7 @@ function formatarNumero(valor, casas = 2) {
 // Entradas
 // ------------------------------------------------------------
 
-criarTitulo("Potência da Bomba Hidráulica");
+criarTitulo("Potência e Torque da Bomba Hidráulica");
 
 criarTitulo("Dados", 3);
 
@@ -106,6 +112,15 @@ const vazaoInput = criarCampoNumero(
     null,
     1,
     "L/min"
+);
+
+const rotacaoInput = criarCampoNumero(
+    "Rotação da bomba",
+    1000,
+    1,
+    null,
+    1,
+    "rpm"
 );
 
 const eficienciaBombaInput = criarCampoNumero(
@@ -141,6 +156,7 @@ container.appendChild(resultados);
 const entradas = [
     pressaoInput,
     vazaoInput,
+    rotacaoInput,
     eficienciaBombaInput,
     eficienciaMotorInput
 ];
@@ -160,9 +176,10 @@ function calcular() {
         valores[0] < 0 ||
         valores[1] < 0 ||
         valores[2] <= 0 ||
-        valores[2] > 100 ||
         valores[3] <= 0 ||
-        valores[3] > 100
+        valores[3] > 100 ||
+        valores[4] <= 0 ||
+        valores[4] > 100
     ) {
 
         resultados.innerHTML = `
@@ -177,6 +194,7 @@ function calcular() {
     const [
         pressaoBar,
         vazaoLmin,
+        rotacaoRpm,
         eficienciaBombaPercentual,
         eficienciaMotorPercentual
     ] = valores;
@@ -211,6 +229,36 @@ function calcular() {
 
     const potenciaEletricaKw =
         potenciaEixoKw / eficienciaMotor;
+
+    // --------------------------------------------------------
+    // Torque
+    //
+    // T [N·m] = 9550 × P [kW] / n [rpm]
+    // --------------------------------------------------------
+
+    const torqueHidraulicoNm =
+        (9550 * potenciaHidraulicaKw) /
+        rotacaoRpm;
+
+    const torqueEixoNm =
+        (9550 * potenciaEixoKw) /
+        rotacaoRpm;
+
+    const torqueExtraPerdasNm =
+        torqueEixoNm -
+        torqueHidraulicoNm;
+
+    // --------------------------------------------------------
+    // Cilindrada ideal correspondente à vazão e RPM
+    //
+    // Vg [cm³/rev] = Q [L/min] × 1000 / n [rpm]
+    //
+    // Valor ideal, sem corrigir eficiência volumétrica.
+    // --------------------------------------------------------
+
+    const cilindradaIdealCm3Rev =
+        (vazaoLmin * 1000) /
+        rotacaoRpm;
 
     // --------------------------------------------------------
     // Conversões
@@ -273,6 +321,16 @@ function calcular() {
         ],
 
         [
+            "Rotação",
+            `${formatarNumero(rotacaoRpm, 0)} rpm`
+        ],
+
+        [
+            "Cilindrada ideal correspondente",
+            `${formatarNumero(cilindradaIdealCm3Rev)} cm³/rev`
+        ],
+
+        [
             "Potência hidráulica",
             `${formatarNumero(potenciaHidraulicaKw)} kW`
         ],
@@ -280,7 +338,11 @@ function calcular() {
         [
             "Potência hidráulica",
             `${formatarNumero(potenciaHidraulicaCv)} cv`
-            
+        ],
+
+        [
+            "Torque hidráulico ideal",
+            `${formatarNumero(torqueHidraulicoNm)} N·m`
         ],
 
         [
@@ -291,6 +353,16 @@ function calcular() {
         [
             "Potência requerida no eixo",
             `${formatarNumero(potenciaEixoCv)} cv`
+        ],
+
+        [
+            "Torque requerido no eixo",
+            `${formatarNumero(torqueEixoNm)} N·m`
+        ],
+
+        [
+            "Torque adicional devido às perdas",
+            `${formatarNumero(torqueExtraPerdasNm)} N·m`
         ],
 
         [
@@ -384,6 +456,24 @@ formulas.innerHTML = `
 </div>
 
 <div class="formula">
+    T<sub>hid</sub> [N·m] =
+    9550 · P<sub>hid</sub> [kW] /
+    n [rpm]
+</div>
+
+<div class="formula">
+    T<sub>eixo</sub> [N·m] =
+    9550 · P<sub>eixo</sub> [kW] /
+    n [rpm]
+</div>
+
+<div class="formula">
+    V<sub>g ideal</sub> [cm³/rev] =
+    Q [L/min] · 1000 /
+    n [rpm]
+</div>
+
+<div class="formula">
     η<sub>global</sub> =
     η<sub>bomba</sub> · η<sub>motor</sub>
 </div>
@@ -396,24 +486,38 @@ formulas.innerHTML = `
 
 <div class="informacao">
 
-    A potência hidráulica representa a potência efetivamente
-    transferida ao óleo.
+    O torque hidráulico é o torque ideal correspondente
+    à potência transferida ao óleo.
 
     <br><br>
 
-    A potência no eixo considera as perdas da bomba.
+    O torque requerido no eixo considera as perdas da bomba
+    e representa o torque que o motor deve fornecer ao eixo
+    da bomba na rotação informada.
 
     <br><br>
 
-    A potência elétrica considera também as perdas do motor.
+    Quanto maior a pressão, maior será o torque requerido
+    para manter a mesma cilindrada.
 
     <br><br>
 
-    Para dimensionamento real do motor deve-se ainda considerar
-    margem de segurança, regime de trabalho e condições indicadas
-    pelos fabricantes da bomba e do motor.
+    Se o motor não conseguir fornecer esse torque, sua
+    rotação poderá cair. Como a vazão depende da rotação,
+    a consequência será:
+
+    <br><br>
+
+    pressão ↑ → torque requerido ↑ → RPM ↓ → vazão ↓
+
+    <br><br>
+
+    A cilindrada exibida é calculada apenas pela relação
+    ideal entre vazão e rotação, sem correção pela
+    eficiência volumétrica.
 
 </div>
+
 `;
 
 container.appendChild(formulas);
