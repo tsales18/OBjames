@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Calculadora/carga.md",
+                "file": "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade do Cilindro com Carga.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "carga"
+              "title": "Calculadora de Velocidade do Cilindro com Carga"
             }
           }
         ],
@@ -216,13 +216,15 @@
   },
   "active": "501a87dc2c620033",
   "lastOpenFiles": [
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Força Hidráulica.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/carga.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Carga do Cilindro.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade do Cilindro com Carga.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade do Cilindro.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Vazão da Bomba.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Potência de Bombas.md",
     "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Queda de Pressão em Orifício.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Vazão da Bomba.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade do Cilindro com Carga.md",
+    "AirSpace/Automação/Hidraulica/Cálculo de Vazão em Bombas Hidráulicas.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade do Cilindro.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Carga do Cilindro.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Carga do Cilindro (studio automotion).md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Força Hidráulica.md",
     "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Pressão de Abertura.md",
     "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Áreas Válvula Cartucho.md",
     "AirSpace/Automação/Hidraulica/Calculadora/calculadora-orificio.css",
@@ -247,9 +249,7 @@
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/4. DRF.md",
     "AirSpace/Automação/Hidraulica/Pilotagem hidráulica de êmbolos e carretéis.md",
     "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A15VLO",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/Sem título.md",
     "AirSpace/imagens/Pasted image 20260822180804.png",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A4VSO/Dispositivos de Controle/1. DR (Controle de Pressão).md",
     "AirSpace/imagens/Pasted image 20260818133950.png",
     "AirSpace/imagens/Pasted image 20260820150754.png",
     "AirSpace/imagens/Pasted image 20260819023415.png",

@@ -1,20 +1,15 @@
+# Calculadora de Carga Hidráulica
 
 ```dataviewjs
 // ============================================================
-// CALCULADORA DE CARGA DO CILINDRO
+// CALCULADORA DE CARGA HIDRÁULICA
 //
-// Percentual = Is_Fd / Escala máxima
-// Fd = Fmáx × percentual
-// Área = π × D² / 4
-// p [bar] = Fd [N] / (10 × A [cm²])
+// F [N] = 10 × p [bar] × A [cm²]
+// Utilização [%] = Fatual / Fmáxima × 100
 // ============================================================
 
 const container = dv.el("div", "");
 container.className = "calculadora-orificio";
-
-// ------------------------------------------------------------
-// Funções da interface
-// ------------------------------------------------------------
 
 function criarTitulo(texto, nivel = 2) {
     const titulo = document.createElement(`h${nivel}`);
@@ -26,7 +21,6 @@ function criarCampoNumero(
     rotulo,
     valor,
     minimo,
-    maximo,
     passo,
     unidade
 ) {
@@ -42,15 +36,8 @@ function criarCampoNumero(
     const input = document.createElement("input");
     input.type = "number";
     input.value = valor;
+    input.min = minimo;
     input.step = passo;
-
-    if (minimo !== null) {
-        input.min = minimo;
-    }
-
-    if (maximo !== null) {
-        input.max = maximo;
-    }
 
     const unidadeTexto = document.createElement("span");
     unidadeTexto.textContent = unidade;
@@ -73,195 +60,238 @@ function formatarNumero(valor, casas = 2) {
 }
 
 // ------------------------------------------------------------
-// Título e entradas
+// Entradas
 // ------------------------------------------------------------
 
-criarTitulo("Calculadora de Carga do Cilindro");
+criarTitulo("Calculadora de Carga Hidráulica");
 criarTitulo("Dados", 3);
+
+const pressaoInput = criarCampoNumero(
+    "Pressão atual",
+    250,
+    0,
+    1,
+    "bar"
+);
+
+const areaInput = criarCampoNumero(
+    "Área efetiva",
+    6310,
+    0.01,
+    1,
+    "cm²"
+);
 
 const forcaMaximaInput = criarCampoNumero(
     "Força máxima do sistema",
     17651970,
-    0,
-    null,
+    1,
     1000,
     "N"
-);
-
-const sinalFdInput = criarCampoNumero(
-    "Sinal Is_Fd",
-    5000,
-    0,
-    20000,
-    100,
-    "pontos"
-);
-
-const escalaMaximaInput = criarCampoNumero(
-    "Escala máxima do sinal",
-    20000,
-    1,
-    null,
-    1000,
-    "pontos"
-);
-
-const diametroInput = criarCampoNumero(
-    "Diâmetro interno do cilindro",
-    856,
-    0.1,
-    null,
-    1,
-    "mm"
 );
 
 // ------------------------------------------------------------
 // Resultados
 // ------------------------------------------------------------
 
-criarTitulo("Resultados", 3);
+criarTitulo("Força atual", 3);
 
-const resultados = document.createElement("div");
-resultados.className = "resultados-calculadora";
-container.appendChild(resultados);
+const resultadosAtuais = document.createElement("div");
+resultadosAtuais.className = "resultados-calculadora";
+container.appendChild(resultadosAtuais);
+
+criarTitulo("Capacidade do sistema", 3);
+
+const capacidade = document.createElement("div");
+capacidade.className = "resultados-calculadora";
+container.appendChild(capacidade);
 
 // ------------------------------------------------------------
 // Cálculo
 // ------------------------------------------------------------
 
 function calcular() {
-    const FmaxN = Number(forcaMaximaInput.value);
-    const sinalFd = Number(sinalFdInput.value);
-    const escalaMaxima = Number(escalaMaximaInput.value);
-    const diametroMm = Number(diametroInput.value);
+    const pressaoBar = Number(pressaoInput.value);
+    const areaCm2 = Number(areaInput.value);
+    const forcaMaximaN = Number(forcaMaximaInput.value);
 
-    // Validação
     if (
-        FmaxN < 0 ||
-        sinalFd < 0 ||
-        escalaMaxima <= 0 ||
-        diametroMm <= 0
+        !Number.isFinite(pressaoBar) ||
+        !Number.isFinite(areaCm2) ||
+        !Number.isFinite(forcaMaximaN) ||
+        pressaoBar < 0 ||
+        areaCm2 <= 0 ||
+        forcaMaximaN <= 0
     ) {
-        resultados.innerHTML = `
+        resultadosAtuais.innerHTML = `
             <div class="aviso-erro">
-                Verifique os valores informados. A escala máxima e o
-                diâmetro devem ser maiores que zero. A força e o sinal
-                não podem ser negativos.
+                A pressão não pode ser negativa. A área e a força
+                máxima devem ser maiores que zero.
             </div>
         `;
+
+        capacidade.innerHTML = "";
         return;
     }
 
-    // --------------------------------------------------------
-    // Área do cilindro
-    // --------------------------------------------------------
+    // Força atual
+    const forcaN = 10 * pressaoBar * areaCm2;
+    const forcaKN = forcaN / 1000;
+    const forcaMN = forcaN / 1_000_000;
+    const forcaTf = forcaN / 9806.65;
 
-    const diametroCm = diametroMm / 10;
-    const areaCm2 =
-        Math.PI * Math.pow(diametroCm, 2) / 4;
+    // Força máxima
+    const forcaMaximaKN = forcaMaximaN / 1000;
+    const forcaMaximaMN = forcaMaximaN / 1_000_000;
+    const forcaMaximaTf = forcaMaximaN / 9806.65;
 
-    // Área em m²
-    const areaM2 = areaCm2 * 1e-4;
+    // Percentual e margem
+    const percentualUtilizado =
+        (forcaN / forcaMaximaN) * 100;
 
-    // --------------------------------------------------------
-    // Percentual da carga
-    // --------------------------------------------------------
+    const margemDisponivelN =
+        forcaMaximaN - forcaN;
 
-    const percentual = sinalFd / escalaMaxima;
-    const percentualExibicao = percentual * 100;
+    const margemDisponivelTf =
+        margemDisponivelN / 9806.65;
 
-    // --------------------------------------------------------
-    // Força equivalente
-    // --------------------------------------------------------
+    // Pressão correspondente à força máxima
+    const pressaoMaximaBar =
+        forcaMaximaN / (10 * areaCm2);
 
-    const FdN = FmaxN * percentual;
-    const FdKN = FdN / 1000;
-    const FdMN = FdN / 1_000_000;
-    const FdTf = FdN / 9806.65;
+    const excedeuCapacidade =
+        percentualUtilizado > 100;
 
-    // --------------------------------------------------------
-    // Pressão equivalente
-    // --------------------------------------------------------
+    // A largura visual fica limitada a 100%
+    const larguraBarra = Math.min(
+        Math.max(percentualUtilizado, 0),
+        100
+    );
 
-    const pressaoBar = FdN / (10 * areaCm2);
-    const pressaoMPa = pressaoBar / 10;
+    let classeBarra = "barra-normal";
 
-    // --------------------------------------------------------
-    // Exibição
-    // --------------------------------------------------------
+    if (percentualUtilizado >= 90) {
+        classeBarra = "barra-atencao";
+    }
 
-    resultados.innerHTML = `
+    if (excedeuCapacidade) {
+        classeBarra = "barra-excedida";
+    }
+
+    resultadosAtuais.innerHTML = `
         <div class="cartao-resultado">
-            <span>Carga utilizada</span>
-            <strong>
-                ${formatarNumero(percentualExibicao)} %
-            </strong>
+            <span>Força atual</span>
+            <strong>${formatarNumero(forcaN, 0)} N</strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Área efetiva do cilindro</span>
-            <strong>
-                ${formatarNumero(areaCm2)} cm²
-            </strong>
+            <span>Força atual</span>
+            <strong>${formatarNumero(forcaKN, 2)} kN</strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Área em unidade SI</span>
-            <strong>
-                ${formatarNumero(areaM2, 6)} m²
-            </strong>
+            <span>Força atual</span>
+            <strong>${formatarNumero(forcaMN, 3)} MN</strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Força equivalente</span>
-            <strong>
-                ${formatarNumero(FdN, 0)} N
-            </strong>
+            <span>Força atual</span>
+            <strong>${formatarNumero(forcaTf, 2)} tf</strong>
+        </div>
+    `;
+
+    capacidade.innerHTML = `
+        <div class="cartao-resultado">
+            <span>Força máxima</span>
+            <strong>${formatarNumero(forcaMaximaN, 0)} N</strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Força equivalente</span>
-            <strong>
-                ${formatarNumero(FdKN)} kN
-            </strong>
+            <span>Força máxima</span>
+            <strong>${formatarNumero(forcaMaximaKN, 2)} kN</strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Força equivalente</span>
-            <strong>
-                ${formatarNumero(FdMN, 3)} MN
-            </strong>
+            <span>Força máxima</span>
+            <strong>${formatarNumero(forcaMaximaMN, 3)} MN</strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Força equivalente</span>
-            <strong>
-                ${formatarNumero(FdTf)} tf
-            </strong>
+            <span>Força máxima</span>
+            <strong>${formatarNumero(forcaMaximaTf, 2)} tf</strong>
         </div>
 
         <div class="cartao-resultado">
-            <span>Pressão teórica equivalente</span>
+            <span>Pressão para atingir a força máxima</span>
+            <strong>${formatarNumero(pressaoMaximaBar, 2)} bar</strong>
+        </div>
+
+        <div class="cartao-resultado ${
+            excedeuCapacidade ? "resultado-negativo" : ""
+        }">
+            <span>Capacidade utilizada</span>
+            <strong>${formatarNumero(percentualUtilizado, 2)} %</strong>
+        </div>
+
+        <div class="barra-capacidade-container">
+            <div class="cabecalho-barra">
+                <span>Utilização do sistema</span>
+                <strong>${formatarNumero(percentualUtilizado, 2)}%</strong>
+            </div>
+
+            <div class="trilho-capacidade">
+                <div
+                    class="preenchimento-capacidade ${classeBarra}"
+                    style="width: ${larguraBarra}%"
+                ></div>
+            </div>
+
+            <div class="escala-capacidade">
+                <span>0%</span>
+                <span>50%</span>
+                <span>100%</span>
+            </div>
+        </div>
+
+        <div class="cartao-resultado ${
+            margemDisponivelN < 0 ? "resultado-negativo" : ""
+        }">
+            <span>
+                ${
+                    margemDisponivelN >= 0
+                        ? "Capacidade restante"
+                        : "Capacidade excedida"
+                }
+            </span>
+
             <strong>
-                ${formatarNumero(pressaoBar)} bar
+                ${formatarNumero(Math.abs(margemDisponivelN), 0)} N
             </strong>
         </div>
 
-        <div class="cartao-resultado">
-            <span>Pressão equivalente</span>
+        <div class="cartao-resultado ${
+            margemDisponivelTf < 0 ? "resultado-negativo" : ""
+        }">
+            <span>
+                ${
+                    margemDisponivelTf >= 0
+                        ? "Capacidade restante"
+                        : "Capacidade excedida"
+                }
+            </span>
+
             <strong>
-                ${formatarNumero(pressaoMPa, 3)} MPa
+                ${formatarNumero(Math.abs(margemDisponivelTf), 2)} tf
             </strong>
         </div>
     `;
 
-    // Alerta se o sinal ultrapassar a escala configurada
-    if (sinalFd > escalaMaxima) {
-        resultados.innerHTML += `
+    if (excedeuCapacidade) {
+        capacidade.innerHTML += `
             <div class="aviso-erro">
-                O sinal Is_Fd está acima da escala máxima configurada.
-                Por isso, a carga calculada ultrapassa 100% da força
-                máxima do sistema.
+                A força calculada ultrapassa a força máxima configurada
+                para o sistema. Verifique a pressão, a área efetiva e o
+                limite estrutural informado.
             </div>
         `;
     }
@@ -272,10 +302,9 @@ function calcular() {
 // ------------------------------------------------------------
 
 const entradas = [
-    forcaMaximaInput,
-    sinalFdInput,
-    escalaMaximaInput,
-    diametroInput
+    pressaoInput,
+    areaInput,
+    forcaMaximaInput
 ];
 
 entradas.forEach(entrada => {
@@ -295,34 +324,38 @@ formulas.innerHTML = `
     <h3>Fórmulas utilizadas</h3>
 
     <div class="formula">
-        Carga (%) =
-        100 · Is<sub>Fd</sub> /
-        Escala<sub>máxima</sub>
+        F [N] =
+        10 · p [bar] · A [cm²]
     </div>
 
     <div class="formula">
-        F<sub>d</sub> =
-        F<sub>máx</sub> ·
-        Is<sub>Fd</sub> /
-        Escala<sub>máxima</sub>
+        F [tf] =
+        F [N] / 9.806,65
     </div>
 
     <div class="formula">
-        A =
-        π · D² / 4
+        Utilização [%] =
+        100 · F<sub>atual</sub> /
+        F<sub>máxima</sub>
     </div>
 
     <div class="formula">
-        p [bar] =
-        F<sub>d</sub> [N] /
+        Margem =
+        F<sub>máxima</sub> −
+        F<sub>atual</sub>
+    </div>
+
+    <div class="formula">
+        p<sub>máxima</sub> [bar] =
+        F<sub>máxima</sub> [N] /
         (10 · A [cm²])
     </div>
 
     <div class="informacao">
-        A pressão calculada é a pressão hidráulica teórica necessária
-        para produzir a força indicada, considerando apenas a área
-        circular do cilindro. Atrito das vedações, contrapressão e
-        perdas mecânicas não estão incluídos.
+        A força máxima deve representar o menor limite aplicável ao
+        conjunto: cilindro, tirantes, estrutura, ferramentas e demais
+        componentes carregados. O valor não deve ser interpretado
+        automaticamente como uma pressão segura de operação.
     </div>
 `;
 
