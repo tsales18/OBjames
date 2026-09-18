@@ -19,308 +19,647 @@
 
 ## **2. VERBOS**
 
-**Formato: Presente = Tradução | Passado = Tradução | Futuro (will + verbo) = Tradução**
+**Formato padrão:**
 
-- **Listen** = escutar  
-    Passado: Listened = escutei  
-    Futuro: Will listen = escutará
+- **Listen**:
     
-- **Spell** = soletrar  
-    Passado: Spelled = soletrei  
-    Futuro: Will spell = soletrará
+    - **Presente (3ª pessoa)**: listens = escuta
+        
+    - **Presente**: listen = escutar
+        
+    - **Passado**: listened = escutei
+        
+    - **Futuro**: will listen = escutará
+        
+- **Spell**:
     
-- **Write** = escrever  
-    Passado: Wrote = escrevi  
-    Futuro: Will write = escreverá
+    - **Presente (3ª pessoa)**: spells = soletra
+        
+    - **Presente**: spell = soletrar
+        
+    - **Passado**: spelled = soletrei
+        
+    - **Futuro**: will spell = soletrará
+        
+- **Write**:
     
-- **Repeat** = repetir  
-    Passado: Repeated = repeti  
-    Futuro: Will repeat = repetirá
+    - **Presente (3ª pessoa)**: writes = escreve
+        
+    - **Presente**: write = escrever
+        
+    - **Passado**: wrote = escrevi
+        
+    - **Futuro**: will write = escreverá
+        
+- **Repeat**:
     
-- **Put** = colocar  
-    Passado: Put = coloquei  
-    Futuro: Will put = colocará
+    - **Presente (3ª pessoa)**: repeats = repete
+        
+    - **Presente**: repeat = repetir
+        
+    - **Passado**: repeated = repeti
+        
+    - **Futuro**: will repeat = repetirá
+        
+- **Put**:
     
-- **Know** = saber, conhecer  
-    Passado: Knew = soube, conheci  
-    Futuro: Will know = saberá, conhecerá
+    - **Presente (3ª pessoa)**: puts = coloca
+        
+    - **Presente**: put = colocar
+        
+    - **Passado**: put = coloquei
+        
+    - **Futuro**: will put = colocará
+        
+- **Know**:
     
-- **Have** = possuir, ter  
-    Passado: Had = tive  
-    Futuro: Will have = terá
+    - **Presente (3ª pessoa)**: knows = sabe, conhece
+        
+    - **Presente**: know = saber, conhecer
+        
+    - **Passado**: knew = soube, conheci
+        
+    - **Futuro**: will know = saberá, conhecerá
+        
+- **Have**:
     
-- **Get** = pegar, obter, receber, conseguir, adquirir, ganhar  
-    Passado: Got = peguei, obtive, recebi  
-    Futuro: Will get = pegará, receberá
+    - **Presente (3ª pessoa)**: has = tem, possui
+        
+    - **Presente**: have = possuir, ter
+        
+    - **Passado**: had = tive
+        
+    - **Futuro**: will have = terá
+        
+- **Get**:
     
-- **Look** = olhar, ver, observar  
-    Passado: Looked = olhei  
-    Futuro: Will look = olhará
+    - **Presente (3ª pessoa)**: gets = pega, obtém, recebe, consegue, adquire, ganha
+        
+    - **Presente**: get = pegar, obter, receber, conseguir, adquirir, ganhar
+        
+    - **Passado**: got = peguei, obtive, recebi
+        
+    - **Futuro**: will get = pegará, obterá, receberá, conseguirá, adquirirá, ganhará
+        
+- **Look**:
     
-- **Decide** = decidir  
-    Passado: Decided = decidi  
-    Futuro: Will decide = decidirá
+    - **Presente (3ª pessoa)**: looks = olha, vê, observa
+        
+    - **Presente**: look = olhar, ver, observar
+        
+    - **Passado**: looked = olhei
+        
+    - **Futuro**: will look = olhará
+        
+- **Decide**:
     
-- **Resolve** = resolver  
-    Passado: Resolved = resolvi  
-    Futuro: Will resolve = resolverá
+    - **Presente (3ª pessoa)**: decides = decide
+        
+    - **Presente**: decide = decidir
+        
+    - **Passado**: decided = decidi
+        
+    - **Futuro**: will decide = decidirá
+        
+- **Resolve**:
     
-- **Are** = são  
-    Passado: Were = eram  
-    Futuro: Will be = serão
+    - **Presente (3ª pessoa)**: resolves = resolve
+        
+    - **Presente**: resolve = resolver
+        
+    - **Passado**: resolved = resolvi
+        
+    - **Futuro**: will resolve = resolverá
+        
+- **Are**:
     
-- **Be** = ser, estar, haver, ficar  
-    Passado: Was/Were = fui, estava  
-    Futuro: Will be = será, estará
+    - **Presente (3ª pessoa)**: is = é, está
+        
+    - **Presente**: are = são, estão
+        
+    - **Passado**: were = eram, estavam
+        
+    - **Futuro**: will be = serão, estarão
+        
+- **Be**:
     
-- **Choose** = escolher  
-    Passado: Chose = escolhi  
-    Futuro: Will choose = escolherá
+    - **Presente (3ª pessoa)**: is = é, está
+        
+    - **Presente**: be = ser, estar, haver, ficar
+        
+    - **Passado**: was/were = fui, estava
+        
+    - **Futuro**: will be = será, estará
+        
+- **Choose**:
     
-- **Has** = tem  
-    Passado: Had = tinha  
-    Futuro: Will have = terá
+    - **Presente (3ª pessoa)**: chooses = escolhe
+        
+    - **Presente**: choose = escolher
+        
+    - **Passado**: chose = escolhi
+        
+    - **Futuro**: will choose = escolherá
+        
+- **Has**:
     
-- **Learn** = aprender, estudar  
-    Passado: Learned = aprendi  
-    Futuro: Will learn = aprenderá
+    - **Presente (3ª pessoa)**: has = tem
+        
+    - **Presente**: have = ter
+        
+    - **Passado**: had = tinha
+        
+    - **Futuro**: will have = terá
+        
+- **Learn**:
     
-- **Make** = fazer  
-    Passado: Made = fiz  
-    Futuro: Will make = fará
+    - **Presente (3ª pessoa)**: learns = aprende, estuda
+        
+    - **Presente**: learn = aprender, estudar
+        
+    - **Passado**: learned = aprendi
+        
+    - **Futuro**: will learn = aprenderá
+        
+- **Make**:
     
-- **Order** = ordenar, arranjar, mandar  
-    Passado: Ordered = ordenei  
-    Futuro: Will order = ordenará
+    - **Presente (3ª pessoa)**: makes = faz
+        
+    - **Presente**: make = fazer
+        
+    - **Passado**: made = fiz
+        
+    - **Futuro**: will make = fará
+        
+- **Order**:
     
-- **Spend** = passar, pagar, gastar  
-    Passado: Spent = passei, paguei, gastei  
-    Futuro: Will spend = passará, gastará
+    - **Presente (3ª pessoa)**: orders = ordena, arranja, manda
+        
+    - **Presente**: order = ordenar, arranjar, mandar
+        
+    - **Passado**: ordered = ordenei
+        
+    - **Futuro**: will order = ordenará
+        
+- **Spend**:
     
-- **Fill** = preencher, ocupar  
-    Passado: Filled = preenchi  
-    Futuro: Will fill = preencherá
+    - **Presente (3ª pessoa)**: spends = passa, paga, gasta
+        
+    - **Presente**: spend = passar, pagar, gastar
+        
+    - **Passado**: spent = passei, paguei, gastei
+        
+    - **Futuro**: will spend = passará, pagará, gastará
+        
+- **Fill**:
     
-- **See** = ver  
-    Passado: Saw = vi  
-    Futuro: Will see = verá
+    - **Presente (3ª pessoa)**: fills = preenche, ocupa
+        
+    - **Presente**: fill = preencher, ocupar
+        
+    - **Passado**: filled = preenchi
+        
+    - **Futuro**: will fill = preencherá, ocupará
+        
+- **See**:
     
-- **Come** = vir  
-    Passado: Came = vim  
-    Futuro: Will come = virá
+    - **Presente (3ª pessoa)**: sees = vê
+        
+    - **Presente**: see = ver
+        
+    - **Passado**: saw = vi
+        
+    - **Futuro**: will see = verá
+        
+- **Come**:
     
-- **Say** = dizer, declarar  
-    Passado: Said = disse  
-    Futuro: Will say = dirá
+    - **Presente (3ª pessoa)**: comes = vem
+        
+    - **Presente**: come = vir
+        
+    - **Passado**: came = vim
+        
+    - **Futuro**: will come = virá
+        
+- **Say**:
     
-- **Tell** = dizer, contar, informar  
-    Passado: Told = disse, contei  
-    Futuro: Will tell = dirá, contará
+    - **Presente (3ª pessoa)**: says = diz, declara
+        
+    - **Presente**: say = dizer, declarar
+        
+    - **Passado**: said = disse
+        
+    - **Futuro**: will say = dirá, declarará
+        
+- **Tell**:
     
-- **Understand** = entender  
-    Passado: Understood = entendi  
-    Futuro: Will understand = entenderá
+    - **Presente (3ª pessoa)**: tells = diz, conta, informa
+        
+    - **Presente**: tell = dizer, contar, informar
+        
+    - **Passado**: told = disse, contei
+        
+    - **Futuro**: will tell = dirá, contará, informará
+        
+- **Understand**:
     
-- **Speak** = falar  
-    Passado: Spoke = falei  
-    Futuro: Will speak = falará
+    - **Presente (3ª pessoa)**: understands = entende
+        
+    - **Presente**: understand = entender
+        
+    - **Passado**: understood = entendi
+        
+    - **Futuro**: will understand = entenderá
+        
+- **Speak**:
     
-- **Warm** = esquentar  
-    Passado: Warmed = esquentei  
-    Futuro: Will warm = aquecerá
+    - **Presente (3ª pessoa)**: speaks = fala
+        
+    - **Presente**: speak = falar
+        
+    - **Passado**: spoke = falei
+        
+    - **Futuro**: will speak = falará
+        
+- **Warm**:
     
-- **Form** = formar, formular  
-    Passado: Formed = formei  
-    Futuro: Will form = formará
+    - **Presente (3ª pessoa)**: warms = esquenta, aquece
+        
+    - **Presente**: warm = esquentar, aquecer
+        
+    - **Passado**: warmed = esquentei, aqueci
+        
+    - **Futuro**: will warm = esquentará, aquecerá
+        
+- **Form**:
     
-- **Remember** = lembrar  
-    Passado: Remembered = lembrei  
-    Futuro: Will remember = lembrará
+    - **Presente (3ª pessoa)**: forms = forma, formula
+        
+    - **Presente**: form = formar, formular
+        
+    - **Passado**: formed = formei
+        
+    - **Futuro**: will form = formará
+        
+- **Remember**:
     
-- **Communicate** = comunicar  
-    Passado: Communicated = comuniquei  
-    Futuro: Will communicate = comunicará
+    - **Presente (3ª pessoa)**: remembers = lembra
+        
+    - **Presente**: remember = lembrar
+        
+    - **Passado**: remembered = lembrei
+        
+    - **Futuro**: will remember = lembrará
+        
+- **Communicate**:
     
-- **Collect** = coletar  
-    Passado: Collected = coletei  
-    Futuro: Will collect = coletará
+    - **Presente (3ª pessoa)**: communicates = comunica
+        
+    - **Presente**: communicate = comunicar
+        
+    - **Passado**: communicated = comuniquei
+        
+    - **Futuro**: will communicate = comunicará
+        
+- **Collect**:
     
-- **View** = ver, visualizar  
-    Passado: Viewed = visualizei  
-    Futuro: Will view = visualizará
+    - **Presente (3ª pessoa)**: collects = coleta
+        
+    - **Presente**: collect = coletar
+        
+    - **Passado**: collected = coletei
+        
+    - **Futuro**: will collect = coletará
+        
+- **View**:
     
-- **Create** = criar  
-    Passado: Created = criei  
-    Futuro: Will create = criará
+    - **Presente (3ª pessoa)**: views = vê, visualiza
+        
+    - **Presente**: view = ver, visualizar
+        
+    - **Passado**: viewed = visualizei
+        
+    - **Futuro**: will view = verá, visualizará
+        
+- **Create**:
     
-- **Stay** = ficar  
-    Passado: Stayed = fiquei  
-    Futuro: Will stay = ficará
+    - **Presente (3ª pessoa)**: creates = cria
+        
+    - **Presente**: create = criar
+        
+    - **Passado**: created = criei
+        
+    - **Futuro**: will create = criará
+        
+- **Stay**:
     
-- **Go** = ir  
-    Passado: Went = fui  
-    Futuro: Will go = irá 
-    Terceira pessoa = goes = ele vai 
+    - **Presente (3ª pessoa)**: stays = fica
+        
+    - **Presente**: stay = ficar
+        
+    - **Passado**: stayed = fiquei
+        
+    - **Futuro**: will stay = ficará
+        
+- **Go**:
     
-- **Eat** = comer  
-    Passado: Ate = comi  
-    Futuro: Will eat = comerá
+    - **Presente (3ª pessoa)**: goes = vai
+        
+    - **Presente**: go = ir
+        
+    - **Passado**: went = fui
+        
+    - **Futuro**: will go = irá
+        
+- **Eat**:
     
-- **Thought**  = pensei
-	**Presente:** Think = pensar  
-	**Passado:** Thought = pensei  
-	**Futuro:** Will think = pensará
-
-- Forget = esquecer
-	Presente = forget = esquecer
-	Passado = forgot = esqueci
-	Futuro = will forget = esquecera 
-	
-- Give = dar
-	Presente = give = dar
-	Passado = gave = dei, deu
-	Futuro = will give = dará
-	
-- Pay = pagar
-    Presente = pay = pagar
-    Passado = paid = paguei
-    Futuro = will pay = pagarei
-    3° pessoa = pays
-
-- Arrive = chegar
-	Presente = arrive = chegar
-	Passado = arrived = cheguei
-	Futuro = will arrive = chegarei
-
-- Feel = sentir
-	**Presente**: feel = sentir, sentir-se 
-    **Passado**: felt = senti
-    **Futuro**: will feel = sentirá
-
-- Being = sendo, estar sendo
-   **Presente**: being = sendo / estando  
-   **Passado**: been = sido / estado  
-   **Futuro**: will be being = estará sendo
-
-- Going = indo
-    **Presente**: going = indo  
-    **Passado**: went = foi / fui  
-    **Futuro**: will be going = estará indo
-
-- Try = tentar, experimenta
-    **Presente**: try = tentar, experimentar
-    **Passado**: tried = tentei, experimentei
-    **Futuro**: will try = tentará, experimentará
-
-- Attended = assistir, comparecer, participar, frequentar
-    **Presente**: attend = assistir, comparecer, participar, frequentar
-    **Passado**: **attended** = assisti, compareci, participei, frequentei
-    **Futuro**: will attend = assistirá, comparecerá, participará 
-
-- Wear = usar, vestir
-    **Presente**: wear = usar, vestir
-    **Passado**: **wore** = usei, vesti
-    **Futuro**: will wear = usará, vestirá
-
-- Walk = andar, caminhar
-    **Presente**: walk = andar, caminhar
-    **Passado**: walked = andei, caminhei    
-    **Futuro**: will walk = andará, caminhará
-
-- Like = gostar
-    **Presente**: like = gostar
-    **Passado**: liked = gostei
-    **Futuro**: will like = gostará
-
-- Practice = praticar
-    **Presente**: practice = praticar, treinar
-    **Passado**: practiced = pratiquei
-    **Futuro**: will practice = praticará
-
-- Buy = comprar
-    **Presente**: buy = comprar
-    **Passado**: bought = comprei
-    **Futuro**: will buy = comprará
-
-- Take = pegar
-    **Presente**: take = pegar, tomar, levar
-    **Passado**: took = peguei, tomei, levei
-    **Futuro**: will take = pegará, tomará, levará
-
-- Present = preveni
-    **Presente (3ª pessoa)**: prevents = previne, impede, evita
-    **Presente (demais pessoas)**: prevent = prevenir, impedir, evitar
-    **Passado**: prevented = preveni, impedi, evitei
-    **Futuro**: will prevent = prevenirá, impedirá, evitará
+    - **Presente (3ª pessoa)**: eats = come
+        
+    - **Presente**: eat = comer
+        
+    - **Passado**: ate = comi
+        
+    - **Futuro**: will eat = comerá
+        
+- **Think**:
     
-- keep =manter, guardar, continuar
-	**Presente**: keep = manter, guardar, continuar
-	**Passado**: **kept** = mantive, guardei, continuei
-	**Futuro**: will keep = manterá, guardará, continuará
-	
-- Perform: 
-	**Presente**: perform = executar, realizar, desempenhar, apresentar-se
-	**Passado**: **performed** = executei, realizei, desempenhei, apresentei-me
-	**Futuro**: will perform = executará, realizará, desempenhará, apresentar-se-á
-	
-- Allow:
-    -  **Presente (3ª pessoa)**: allows = permite, autoriza, deixa
+    - **Presente (3ª pessoa)**: thinks = pensa
+        
+    - **Presente**: think = pensar
+        
+    - **Passado**: thought = pensei
+        
+    - **Futuro**: will think = pensará
+        
+- **Forget**:
+    
+    - **Presente (3ª pessoa)**: forgets = esquece
+        
+    - **Presente**: forget = esquecer
+        
+    - **Passado**: forgot = esqueci
+        
+    - **Futuro**: will forget = esquecerá
+        
+- **Give**:
+    
+    - **Presente (3ª pessoa)**: gives = dá
+        
+    - **Presente**: give = dar
+        
+    - **Passado**: gave = dei
+        
+    - **Futuro**: will give = dará
+        
+- **Pay**:
+    
+    - **Presente (3ª pessoa)**: pays = paga
+        
+    - **Presente**: pay = pagar
+        
+    - **Passado**: paid = paguei
+        
+    - **Futuro**: will pay = pagará
+        
+- **Arrive**:
+    
+    - **Presente (3ª pessoa)**: arrives = chega
+        
+    - **Presente**: arrive = chegar
+        
+    - **Passado**: arrived = cheguei
+        
+    - **Futuro**: will arrive = chegará
+        
+- **Feel**:
+    
+    - **Presente (3ª pessoa)**: feels = sente, sente-se
+        
+    - **Presente**: feel = sentir, sentir-se
+        
+    - **Passado**: felt = senti
+        
+    - **Futuro**: will feel = sentirá
+        
+- **Being / Be**:
+    
+    - **Presente (3ª pessoa)**: is = é, está
+        
+    - **Presente**: be = ser, estar
+        
+    - **Passado**: was/were = fui, estava
+        
+    - **Futuro**: will be = será, estará
+        
+- **Going / Go**:
+    
+    - **Presente (3ª pessoa)**: goes = vai
+        
+    - **Presente**: go = ir
+        
+    - **Passado**: went = fui, foi
+        
+    - **Futuro**: will go = irá
+        
+- **Try**:
+    
+    - **Presente (3ª pessoa)**: tries = tenta, experimenta
+        
+    - **Presente**: try = tentar, experimentar
+        
+    - **Passado**: tried = tentei, experimentei
+        
+    - **Futuro**: will try = tentará, experimentará
+        
+- **Attend**:
+    
+    - **Presente (3ª pessoa)**: attends = assiste, comparece, participa, frequenta
+        
+    - **Presente**: attend = assistir, comparecer, participar, frequentar
+        
+    - **Passado**: attended = assisti, compareci, participei, frequentei
+        
+    - **Futuro**: will attend = assistirá, comparecerá, participará, frequentará
+        
+- **Wear**:
+    
+    - **Presente (3ª pessoa)**: wears = usa, veste
+        
+    - **Presente**: wear = usar, vestir
+        
+    - **Passado**: wore = usei, vesti
+        
+    - **Futuro**: will wear = usará, vestirá
+        
+- **Walk**:
+    
+    - **Presente (3ª pessoa)**: walks = anda, caminha
+        
+    - **Presente**: walk = andar, caminhar
+        
+    - **Passado**: walked = andei, caminhei
+        
+    - **Futuro**: will walk = andará, caminhará
+        
+- **Like**:
+    
+    - **Presente (3ª pessoa)**: likes = gosta
+        
+    - **Presente**: like = gostar
+        
+    - **Passado**: liked = gostei
+        
+    - **Futuro**: will like = gostará
+        
+- **Practice**:
+    
+    - **Presente (3ª pessoa)**: practices = pratica, treina
+        
+    - **Presente**: practice = praticar, treinar
+        
+    - **Passado**: practiced = pratiquei
+        
+    - **Futuro**: will practice = praticará
+        
+- **Buy**:
+    
+    - **Presente (3ª pessoa)**: buys = compra
+        
+    - **Presente**: buy = comprar
+        
+    - **Passado**: bought = comprei
+        
+    - **Futuro**: will buy = comprará
+        
+- **Take**:
+    
+    - **Presente (3ª pessoa)**: takes = pega, toma, leva
+        
+    - **Presente**: take = pegar, tomar, levar
+        
+    - **Passado**: took = peguei, tomei, levei
+        
+    - **Futuro**: will take = pegará, tomará, levará
+        
+- **Prevent**:
+    
+    - **Presente (3ª pessoa)**: prevents = previne, impede, evita
+        
+    - **Presente**: prevent = prevenir, impedir, evitar
+        
+    - **Passado**: prevented = preveni, impedi, evitei
+        
+    - **Futuro**: will prevent = prevenirá, impedirá, evitará
+        
+- **Keep**:
+    
+    - **Presente (3ª pessoa)**: keeps = mantém, guarda, continua
+        
+    - **Presente**: keep = manter, guardar, continuar
+        
+    - **Passado**: kept = mantive, guardei, continuei
+        
+    - **Futuro**: will keep = manterá, guardará, continuará
+        
+- **Perform**:
+    
+    - **Presente (3ª pessoa)**: performs = executa, realiza, desempenha, apresenta-se
+        
+    - **Presente**: perform = executar, realizar, desempenhar, apresentar-se
+        
+    - **Passado**: performed = executei, realizei, desempenhei, apresentei-me
+        
+    - **Futuro**: will perform = executará, realizará, desempenhará, apresentar-se-á
+        
+- **Allow**:
+    
+    - **Presente (3ª pessoa)**: allows = permite, autoriza, deixa
+        
     - **Presente**: allow = permitir, autorizar, deixar
-	- **Passado**: allowed = permiti, autorizei, deixei
-	- **Futuro**: will allow = permitirá, autorizará, deixará
-
-- Define:
-	- **Presente (3ª pessoa)**: defines = define, determina, especifica
-	- **Presente (demais pessoas)**: define = definir, determinar, especificar
-	- **Passado**: defined = defini, determinei, especifiquei
-	- **Futuro**: will define = definirá, determinará, especificará
-
-- Require: 
-    - Presente (3ª pessoa): requires = exigi, requer, precisa, de, necessita
-	- **Presente**: require = exigir, requerer, precisar de, necessitar
-	- **Passado**: **required** = exigi, requeri, precisei de
-	- **Futuro**: will require = exigirá, requererá, precisará de
-
-- Determine:
-	- **Presente (I/you/we/they):** determine = determinar, decidir, estabelecer
-	- **Presente (3ª pessoa he/she/it):** **determines** = determina, decide, estabelece
-	- **Passado:** determined = determinei, decidi, estabeleci
-	- **Futuro:** will determine = determinará, decidirá, estabelecerá
-
-- Pack:
-	- **Presente (I/you/we/they):** pack = empacotar, embalar, fazer as malas
-	- **Presente (3ª pessoa he/she/it):** packs = empacota, embala, faz as malas
-	- **Passado:** **packed** = empacotei, embalei, fiz as malas
-	- **Futuro:** will pack = empacotará, embalará, fará as malas
-
----
-
-## 2.1 **VERBO MODAL 
-
-- Should
-	Função: indicar conselho, recomendação, obrigação leve, expectativa ou probabilidade
-
-| Uso                           | Exemplo                       | Tradução                             |
-| ----------------------------- | ----------------------------- | ------------------------------------ |
-| **Conselho/recomendação**     | You **should** see a doctor.  | Você **deveria** ver um médico.      |
-| **Obrigação leve**            | We **should** respect others. | Nós **devemos** respeitar os outros. |
-| **Expectativa/probabilidade** | It **should** rain today.     | **Deve** chover hoje.                |
-| **Correção**                  | You **shouldn't** say that.   | Você **não deveria** dizer isso.     |
-
----
-- Shall:
-    - **Função:** Indicar futuro, sugestão, oferta, obrigação ou determinação
-    - **Tradução:** vou, vamos, deverei, deveremos (depende do contexto)
+        
+    - **Passado**: allowed = permiti, autorizei, deixei
+        
+    - **Futuro**: will allow = permitirá, autorizará, deixará
+        
+- **Define**:
     
-- May:
-    - **Função:** Indicar permissão, possibilidade, desejo ou concessão
-    - **Tradução:** poder (no sentido de permissão ou possibilidade)
+    - **Presente (3ª pessoa)**: defines = define, determina, especifica
+        
+    - **Presente**: define = definir, determinar, especificar
+        
+    - **Passado**: defined = defini, determinei, especifiquei
+        
+    - **Futuro**: will define = definirá, determinará, especificará
+        
+- **Require**:
+    
+    - **Presente (3ª pessoa)**: requires = exige, requer, precisa de, necessita
+        
+    - **Presente**: require = exigir, requerer, precisar de, necessitar
+        
+    - **Passado**: required = exigi, requeri, precisei de
+        
+    - **Futuro**: will require = exigirá, requererá, precisará de, necessitará
+        
+- **Determine**:
+    
+    - **Presente (3ª pessoa)**: determines = determina, decide, estabelece
+        
+    - **Presente**: determine = determinar, decidir, estabelecer
+        
+    - **Passado**: determined = determinei, decidi, estabeleci
+        
+    - **Futuro**: will determine = determinará, decidirá, estabelecerá
+        
+- **Pack**:
+    
+    - **Presente (3ª pessoa)**: packs = empacota, embala, faz as malas
+        
+    - **Presente**: pack = empacotar, embalar, fazer as malas
+        
+    - **Passado**: packed = empacotei, embalei, fiz as malas
+        
+    - **Futuro**: will pack = empacotará, embalará, fará as malas
+        
 
+---
+
+## 2.1 **VERBO MODAL
+
+- Should  
+    Função: indicar conselho, recomendação, obrigação leve, expectativa ou probabilidade
+    
+
+|Uso Exemplo Tradução|||
+|---|---|---|
+|**Conselho/recomendação**|You **should** see a doctor.|Você **deveria** ver um médico.|
+|**Obrigação leve**|We **should** respect others.|Nós **devemos** respeitar os outros.|
+|**Expectativa/probabilidade**|It **should** rain today.|**Deve** chover hoje.|
+|**Correção**|You **shouldn't** say that.|Você **não deveria** dizer isso.|
+
+---
+
+- Shall:
+    
+    - **Função:** Indicar futuro, sugestão, oferta, obrigação ou determinação
+        
+    - **Tradução:** vou, vamos, deverei, deveremos (depende do contexto)
+        
+- May:
+    
+    - **Função:** Indicar permissão, possibilidade, desejo ou concessão
+        
+    - **Tradução:** poder (no sentido de permissão ou possibilidade)
+        
 - Must:
-	- **Função:** Indicar obrigação, necessidade, certeza ou recomendação forte
-	- **Tradução:** dever, ter que, precisar, certamente
+    
+    - **Função:** Indicar obrigação, necessidade, certeza ou recomendação forte
+        
+    - **Tradução:** dever, ter que, precisar, certamente
+        
 
 ### 📝 **Conjugação:**
+
 ## **3. SUBSTANTIVOS**
 
 - **Letter** = letra, carta
@@ -445,23 +784,28 @@
     
 - **Pool** = piscina
     
-- **Swimming** = natação 
-
+- **Swimming** = natação
+    
 - Meal = refeição
-
-- Recognition = reconhecimento, identificação 
-
+    
+- Recognition = reconhecimento, identificação
+    
 - Being = ser, existência
-
+    
 - Wedding = casamento (cerimônia, evento)
-
+    
 - Contents:
-	- **Função:** Nomeia o que está dentro de algo, os itens que compõem um todo
-	- **Tradução:** conteúdo, conteúdos, teor, sumário
-
+    
+    - **Função:** Nomeia o que está dentro de algo, os itens que compõem um todo
+        
+    - **Tradução:** conteúdo, conteúdos, teor, sumário
+        
 - Fields:
-	- **Função:** Nomeia áreas, espaços ou categorias
-	- **Tradução:** campos, áreas, setores, domínios
+    
+    - **Função:** Nomeia áreas, espaços ou categorias
+        
+    - **Tradução:** campos, áreas, setores, domínios
+        
 
 ---
 
@@ -512,7 +856,7 @@
 - **Next to** = ao lado de
     
 - **Behind** = atrás
-
+    
 
 ---
 
@@ -525,10 +869,13 @@
 - **But** = mas, porém
     
 - **Than** = de, do, do que
-
+    
 - Although:
-	- **Função:** Introduz uma oração que expressa uma ideia de contraste ou concessão em relação à oração principal
-	- **Tradução:** embora, apesar de que, ainda que, mesmo que
+    
+    - **Função:** Introduz uma oração que expressa uma ideia de contraste ou concessão em relação à oração principal
+        
+    - **Tradução:** embora, apesar de que, ainda que, mesmo que
+        
 
 ---
 
@@ -537,13 +884,17 @@
 ### **Lugar**
 
 - **There** = ali, lá
+    
 - Ahead = à frente, adiante, na dianteira
+    
+
 ### **Modo**
 
 - **Then** = então
     
 - **Just** = exatamente, apenas
     
+
 ### **Intensidade**
 
 - **As** = tão
@@ -563,10 +914,13 @@
 ### **Inclusão**
 
 - **Also** = também
-
+    
 - Therefore:
-	- **Função:** Introduz uma conclusão lógica ou resultado baseado no que foi dito anteriormente
-	- **Tradução:** portanto, por isso, por conseguinte, logo, assim sendo
+    
+    - **Função:** Introduz uma conclusão lógica ou resultado baseado no que foi dito anteriormente
+        
+    - **Tradução:** portanto, por isso, por conseguinte, logo, assim sendo
+        
 
 ### **Exclusão**
 
@@ -584,13 +938,18 @@
 - **Once** = uma vez
     
 - Always = sempre
-
-- Sometimes = as vezes 
+    
+- Sometimes = as vezes
+    
 
 ### Transição
+
 - Nevertheless
-	- **Função:** Introduz uma ideia que contrasta ou se opõe ao que foi dito anteriormente
-	- **Tradução:** no entanto, todavia, contudo, mesmo assim, apesar disso
+    
+    - **Função:** Introduz uma ideia que contrasta ou se opõe ao que foi dito anteriormente
+        
+    - **Tradução:** no entanto, todavia, contudo, mesmo assim, apesar disso
+        
 
 ---
 
@@ -631,9 +990,9 @@
 - **His** = seu, sua, dele
     
 - **Everything** = tudo
-
+    
 - **That** = que, isso, aquele, aquela
-
+    
 - Those = aqueles, aquelas
     
 
@@ -677,33 +1036,48 @@
 - **Able** = capaz
     
 - **Past** = passado
-
+    
 - Bright = brilhante, claro, vivo, inteligente, alegre
-
+    
 - Pending:
+    
     - **Função:** Descreve algo que ainda não foi decidido, resolvido ou concluído
+        
     - **Tradução:** pendente, por resolver, em espera
-
+        
 - Current:
-	- **Função:** Descreve algo que pertence ao presente, que está acontecendo agora
-	- **Tradução:** atual, corrente, vigente
-
+    
+    - **Função:** Descreve algo que pertence ao presente, que está acontecendo agora
+        
+    - **Tradução:** atual, corrente, vigente
+        
 - Enough:
-	- **Função:** Acompanha um substantivo, indicando quantidade suficiente
-	- **Posição:** Antes do substantivo
-	- **Tradução:** suficiente, bastante
-	
+    
+    - **Função:** Acompanha um substantivo, indicando quantidade suficiente
+        
+    - **Posição:** Antes do substantivo
+        
+    - **Tradução:** suficiente, bastante
+        
 - Shorter:
-	- **Função:** Comparar duas coisas, indicando que uma tem menos comprimento, altura, duração ou tamanho que a outra
-	- **Forma:** Comparativo de "short" (curto, baixo, breve)
-	- **Tradução:** mais curto, mais baixo, mais breve
+    
+    - **Função:** Comparar duas coisas, indicando que uma tem menos comprimento, altura, duração ou tamanho que a outra
+        
+    - **Forma:** Comparativo de "short" (curto, baixo, breve)
+        
+    - **Tradução:** mais curto, mais baixo, mais breve
+        
+
 ---
 
-## 9.1 **ADJETIVO INDEFINIDO 
+## 9.1 **ADJETIVO INDEFINIDO
 
 - Another:
-	- **Função:** Acompanha um substantivo singular, indicando "um adicional", "um diferente" ou "um outro"
-	- **Tradução:** outro, outra, mais um, mais uma
+    
+    - **Função:** Acompanha um substantivo singular, indicando "um adicional", "um diferente" ou "um outro"
+        
+    - **Tradução:** outro, outra, mais um, mais uma
+        
 
 ## **10. LOCUÇÃO INTERROGATIVA DE QUANTIDADE**
 
@@ -715,9 +1089,13 @@
 ## 11. **EXPRESSÕES COMUNS
 
 - Try on = experimentar (roupa)
+    
 - Try out = testar, experimentar
+    
 - Try your best = dar o seu melhor
+    
 - turn the sound up = aumentar o volume
+    
 
 # **TÓPICO EXTRA: SINÔNIMOS E TEMPOS VERBAIS**
 

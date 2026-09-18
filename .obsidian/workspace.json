@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de mola.md",
+                "file": "AirSpace/linguas/Inglês/Palavras/Inglês to pogopsrtuguês.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calculadora de mola"
+              "title": "Inglês to pogopsrtuguês"
             }
           }
         ],
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.1000061035156
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -216,8 +217,8 @@
   },
   "active": "501a87dc2c620033",
   "lastOpenFiles": [
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade e Queda de Pressão em Cartucho.md",
     "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de mola.md",
+    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade e Queda de Pressão em Cartucho.md",
     "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Força Hidráulica.md",
     "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Potência de Bombas.md",
     "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Áreas Válvula Cartucho.md",
