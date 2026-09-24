@@ -793,7 +793,9 @@
 - Being = ser, existência
     
 - Wedding = casamento (cerimônia, evento)
-    
+
+- Kind = tipo, espécie, gênero
+
 - Contents:
     
     - **Função:** Nomeia o que está dentro de algo, os itens que compõem um todo
@@ -856,6 +858,8 @@
 - **Next to** = ao lado de
     
 - **Behind** = atrás
+
+- over = sobre, por cima de, acima de
     
 
 ---
@@ -883,10 +887,11 @@
 
 ### **Lugar**
 
-- **There** = ali, lá
+- **There** = ali, lá, aí
     
 - Ahead = à frente, adiante, na dianteira
-    
+
+- over = por cima, acima, de um lado para o outro, terminado
 
 ### **Modo**
 
@@ -985,7 +990,7 @@
     
 - **Which** = qual, o qual
     
-- **These** = esses, essas, estas, estes
+- **These** = esses, essas, estas, estes, desses, dessas, destes, destas
     
 - **His** = seu, sua, dele
     
@@ -1038,12 +1043,15 @@
 - **Past** = passado
     
 - Bright = brilhante, claro, vivo, inteligente, alegre
+
+- Kind =  gentil, bondoso, amável
     
 - Pending:
     
     - **Função:** Descreve algo que ainda não foi decidido, resolvido ou concluído
         
     - **Tradução:** pendente, por resolver, em espera
+- over = acabado, encerrado
         
 - Current:
     
