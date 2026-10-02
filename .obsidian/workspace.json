@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
+                "file": "AirSpace/Matematica/Derivadas/Regras/Regra 5 - Produto + Cadeia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propriedades"
+              "title": "Regra 5 - Produto + Cadeia"
             }
           }
         ],
@@ -121,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 328.70001220703125
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
+                "file": "AirSpace/Matematica/Derivadas/Regras/Regra 5 - Produto + Cadeia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
+                "file": "AirSpace/Matematica/Derivadas/Regras/Regra 5 - Produto + Cadeia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,7 +214,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md"
+                "file": "AirSpace/Matematica/Derivadas/Regras/Regra 5 - Produto + Cadeia.md"
               },
               "icon": "lucide-file-signature",
               "title": "Notas de rodapé"
@@ -243,6 +243,15 @@
   },
   "active": "307c67f8f3c16d3d",
   "lastOpenFiles": [
+    "AirSpace/Matematica/Derivadas/Regras/Regras.md",
+    "AirSpace/Matematica/Derivadas/Regras/Regra 5 - Produto + Cadeia.md",
+    "AirSpace/Matematica/Derivadas/Regras/Regra 4 - Regra da cadeia.md",
+    "AirSpace/Matematica/Derivadas/Regras/Regra 3 - Regra do Quociente.md",
+    "AirSpace/Matematica/Derivadas/Regras/Regra 2 - Regra do produto.md",
+    "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
+    "AirSpace/Matematica/Derivadas/Regras/Regra 1 - potência.md",
+    "AirSpace/Matematica/Derivadas/Regras",
+    "AirSpace/Matematica/Derivadas/Definição.md",
     "AirSpace/Matematica/Derivadas/Regras.md",
     "AirSpace/Matematica/Fatoração/Tipos.md",
     "Pasted image 20260930045804.png",
@@ -271,21 +280,13 @@
     "AirSpace/Matematica/Funções/Função Trigonometrica/Sem título.md",
     "AirSpace/Matematica/Limites",
     "AirSpace/imagens/Pasted image 20260929133337.png",
-    "AirSpace/Matematica/Funções/graph.md",
     "AirSpace/Matematica/Funções/Função Trigonometrica",
-    "AirSpace/Matematica/Funções/Sem título.md",
-    "AirSpace/Matematica/Potênciação/Regras.md",
-    "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
-    "AirSpace/Matematica/Funções/Função Logaritimica/Forma.md",
     "AirSpace/imagens/Pasted image 20260929112909.png",
     "AirSpace/Matematica/Potênciação",
     "AirSpace/imagens/Pasted image 20260929013403.png",
-    "AirSpace/Matematica/Funções/Função Exponencial/7. Resoluçaõ.md",
     "AirSpace/Matematica/Funções/Pasted image 20260929013346.png",
     "AirSpace/Matematica/Funções/Função Logaritimica",
-    "AirSpace/Matematica/Funções/Função Exponencial/6. Expoente Negativo.md",
     "AirSpace/Matematica/Funções/Função Exponencial",
-    "AirSpace/Matematica/Funções/Função Quadratica",
     "AirSpace/imagens/Pasted image 20260827234228.png",
     "AirSpace/imagens/Pasted image 20260827230635.png"
   ]
