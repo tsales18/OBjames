@@ -27,16 +27,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Calculadora/Calculo de Cavitação.md",
+                "file": "AirSpace/Matematica/Produtos Notaveis/Tipos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calculo de Cavitação"
+              "title": "Tipos"
+            }
+          },
+          {
+            "id": "ac1aa166f2121a6f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "AirSpace/imagens/Pasted image 20260929171447.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260929171447"
+            }
+          },
+          {
+            "id": "307c67f8f3c16d3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Propriedades"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 457.5
   },
   "right": {
     "id": "9330d163bb5d7891",
@@ -111,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
+                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 16. Categorias de código de função"
+              "title": "Links inversos"
             }
           },
           {
@@ -173,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AirSpace/Hardware/5. Modbus RTU/Teoria Modbus/16. Categorias de código de função.md",
+                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 16. Categorias de código de função"
+              "title": "Sumário"
             }
           },
           {
@@ -188,17 +214,18 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Força Hidráulica.md"
+                "file": "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md"
               },
               "icon": "lucide-file-signature",
               "title": "Notas de rodapé"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -214,53 +241,52 @@
       "zk-prefixer:Criar nova nota única": false
     }
   },
-  "active": "501a87dc2c620033",
+  "active": "307c67f8f3c16d3d",
   "lastOpenFiles": [
-    "AirSpace/Automação/Programação/Calculos/SRamp.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculo de Cavitação.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Áreas Válvula Cartucho.md",
-    "AirSpace/Automação/Programação/Calculos",
-    "AirSpace/Automação/Programação/Sem título.md",
-    "AirSpace/Automação/Programação",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade do Cilindro com Carga.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade do Cilindro.md",
-    "AirSpace/linguas/Inglês/Regras/1. verbo to be.md",
-    "AirSpace/linguas/Inglês/Palavras/Inglês to pogopsrtuguês.md",
-    "AirSpace/linguas/Inglês/Percepções/3. to vs about.md",
-    "AirSpace/linguas/Inglês/Percepções/2. Pronomes no inicio.md",
-    "AirSpace/linguas/Inglês/Percepções/1. Palavra interrogativa.md",
-    "AirSpace/linguas/Inglês/Regras/5. use of -'s.md",
-    "AirSpace/linguas/Inglês/Regras/4. Be good at + something doing something.md",
-    "AirSpace/linguas/Inglês/Regras/3. Read about the '-ing' form.md",
-    "AirSpace/linguas/Inglês/Regras/2. do, did and does will.md",
-    "AirSpace/linguas/Classes/Pronomes/1. Pronomes Pessoal.md",
-    "AirSpace/linguas/Classes/Preposições.md",
-    "AirSpace/linguas/Classes/substantivos.md",
-    "AirSpace/linguas/Classes/adverbio.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de mola.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Velocidade e Queda de Pressão em Cartucho.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Força Hidráulica.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Potência de Bombas.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Pressão de Abertura.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Queda de Pressão em Orifício.md",
-    "AirSpace/Automação/Hidraulica/Calculadora/Calculadora de Carga do Cilindro (studio automotion).md",
-    "AirSpace/Automação/Hidraulica/Calculadora/calculadora-orificio.css",
-    "AirSpace/Automação/Hidraulica/Calculadora/Novo(a) Documento de Texto.txt",
-    "AirSpace/Automação/Hidraulica/Calculadora",
-    "Pasted image 20260827234228.png",
-    "Pasted image 20260827230635.png",
-    "Pasted image 20260825210720.png",
-    "AirSpace/Automação/Hidraulica/Bombas/Bombas de Pistão axial/A15VLO",
-    "AirSpace/imagens/Pasted image 20260822180804.png",
-    "AirSpace/imagens/Pasted image 20260818133950.png",
-    "AirSpace/imagens/Pasted image 20260820150754.png",
-    "AirSpace/imagens/Pasted image 20260819023415.png",
-    "AirSpace/imagens/Pasted image 20260817025126.png",
-    "AirSpace/Pasted image 20260817020049.png",
-    "AirSpace/linguas/Regras",
-    "AirSpace/linguas/Percepções",
-    "AirSpace/linguas/Palavras",
-    "AirSpace/linguas/Classes/Pronomes",
-    "AirSpace/imagens/Pasted image 20260621001741.png"
+    "AirSpace/Matematica/Derivadas/Regras.md",
+    "AirSpace/Matematica/Fatoração/Tipos.md",
+    "Pasted image 20260930045804.png",
+    "AirSpace/Matematica/Limites/Limites Trigonometricos.md",
+    "AirSpace/Matematica/Derivadas",
+    "AirSpace/Matematica/Derivadas.md",
+    "AirSpace/Matematica/Limites/Limites Infinitos.md",
+    "AirSpace/Matematica/Limites/Propriedades dos limites.md",
+    "AirSpace/Matematica/Limites/Limites Por Agrupamento.md",
+    "AirSpace/Matematica/Limites/Limites Por Trinomio de 2 Grau.md",
+    "AirSpace/Matematica/Limites/Limites com Racionalização.md",
+    "AirSpace/Matematica/Produtos Notaveis/Tipos.md",
+    "AirSpace/Matematica/Radicais/Racionalização.md",
+    "AirSpace/Matematica/Radicais",
+    "AirSpace/Matematica/Limites/Limites Laterais.md",
+    "AirSpace/Matematica/Limites/Limites X tende a 0 elevado a -.md",
+    "AirSpace/Matematica/Limites/Limites Por Diferença de Quadrado.md",
+    "Pasted image 20260929172401.png",
+    "AirSpace/().md",
+    "AirSpace/imagens/Pasted image 20260929170106.png",
+    "AirSpace/imagens/Pasted image 20260929171447.png",
+    "AirSpace/Matematica/Fatoração",
+    "AirSpace/Matematica/Produtos Notaveis",
+    "AirSpace/Matematica/Limites/Definição.md",
+    "AirSpace/Matematica/Limites/Limites Bilaterais.md",
+    "AirSpace/Matematica/Funções/Função Trigonometrica/Sem título.md",
+    "AirSpace/Matematica/Limites",
+    "AirSpace/imagens/Pasted image 20260929133337.png",
+    "AirSpace/Matematica/Funções/graph.md",
+    "AirSpace/Matematica/Funções/Função Trigonometrica",
+    "AirSpace/Matematica/Funções/Sem título.md",
+    "AirSpace/Matematica/Potênciação/Regras.md",
+    "AirSpace/Matematica/Funções/Função Logaritimica/Propriedades.md",
+    "AirSpace/Matematica/Funções/Função Logaritimica/Forma.md",
+    "AirSpace/imagens/Pasted image 20260929112909.png",
+    "AirSpace/Matematica/Potênciação",
+    "AirSpace/imagens/Pasted image 20260929013403.png",
+    "AirSpace/Matematica/Funções/Função Exponencial/7. Resoluçaõ.md",
+    "AirSpace/Matematica/Funções/Pasted image 20260929013346.png",
+    "AirSpace/Matematica/Funções/Função Logaritimica",
+    "AirSpace/Matematica/Funções/Função Exponencial/6. Expoente Negativo.md",
+    "AirSpace/Matematica/Funções/Função Exponencial",
+    "AirSpace/Matematica/Funções/Função Quadratica",
+    "AirSpace/imagens/Pasted image 20260827234228.png",
+    "AirSpace/imagens/Pasted image 20260827230635.png"
   ]
 }
