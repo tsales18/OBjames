@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematica/Derivadas/Regras/Regra 4 - Regra da cadeia.md",
+                "file": "Matematica/Derivadas/Regras/Derivada de Logaritmo +  Produto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regra 4 - Regra da cadeia"
+              "title": "Derivada de Logaritmo +  Produto"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "ccf0b3d8473149ef",
@@ -174,12 +175,22 @@
   },
   "active": "7fac65874802a09d",
   "lastOpenFiles": [
-    "Matematica/Derivadas/Regras/Regra 3 - Regra do Quociente.md",
+    "Matematica/Derivadas/Regras/Derivada de Logaritmo.md",
+    "Matematica/Derivadas/Regras/Derivada de Logaritmo +  Produto.md",
+    "Matematica/Derivadas/Regras/Derivada da Tangente.md",
+    "Matematica/Derivadas/Regras/Derivada exponencial.md",
     "Matematica/Derivadas/Regras/Regra 4 - Regra da cadeia.md",
-    "Matematica/Derivadas/Regras/Regra 2 - Regra do produto.md",
+    "Matematica/Derivadas/Regras/Regra 5 - Produto + Cadeia.md",
     "Matematica/Derivadas/Regras/Regra 1 - potência.md",
-    "Matematica/Derivadas/Regras/Regras.md",
+    "Matematica/Derivadas/Regras/Regra 2 - Regra do produto.md",
+    "Matematica/Derivadas/Regras/Sem título.md",
     "Matematica/Derivadas/Definição.md",
+    "Automação/Controle e movimento/Servos Assincronos/Mitsubishi/OPR.md",
+    "Automação/Controle e movimento/Servos Assincronos/Mitsubishi",
+    "Automação/Controle e movimento/Servos Assincronos",
+    "Automação/Controle e movimento",
+    "Matematica/Derivadas/Regras/Regra 3 - Regra do Quociente.md",
+    "Matematica/Derivadas/Regras/Regras.md",
     "Matematica/Derivadas/Regras",
     "Matematica/Fatoração/Tipos.md",
     "linguas/Inglês/Palavras/Inglês to pogopsrtuguês.md",
@@ -205,19 +216,9 @@
     "Matematica/Limites/Limites Por Agrupamento.md",
     "Matematica/Limites/Limites Laterais.md",
     "Matematica/Limites/Limites Infinitos.md",
-    "Matematica/Limites/Limites Bilaterais.md",
-    "Matematica/Limites/Definição.md",
     "Matematica/Limites",
-    "Matematica/Funções/graph.md",
-    "Matematica/Funções/Função Trigonometrica/Sem título.md",
     "Matematica/Funções/Função Trigonometrica",
-    "Matematica/Funções/Função Quadratica/5. Comportamento.md",
-    "Matematica/Funções/Função Quadratica/4. Raiz ou Zero Da Função.md",
-    "Matematica/Funções/Função Quadratica/3. Imagem.md",
     "Matematica/Funções/Função Quadratica",
-    "Matematica/Funções/Função Logaritimica",
-    "Matematica/Funções/Função Exponencial",
-    "Matematica/Funções/Função Afim",
     "linguas/Pasted image 20260619180315.png",
     "imagens/Pasted image 20260820150754.png",
     "Sem título.canvas"
